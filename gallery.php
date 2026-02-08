@@ -141,35 +141,6 @@
 
     <!-- galleru slider  -->
 
-    <div class="container py-5 text-center">
-        <p class="text-uppercase small tracking-widest gold-text fw-bold">V&V Premium Gallery</p>
-        <h1 class="fw-bold mb-3">Our Visual Diary</h1>
-        <p class="text-secondary">Experience luxury through our lens.<br>Symmetry in every frame.</p>
-
-        <div class="filter-pills d-flex flex-wrap justify-content-center gap-2 my-4">
-            <span class="badge active">All</span>
-            <span class="badge">Salons</span>
-            <span class="badge">Celebrities</span>
-            <span class="badge">Interiors</span>
-            <span class="badge">Academy</span>
-        </div>
-
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=600" /></div>
-                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=600" /></div>
-                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?auto=format&fit=crop&w=600" /></div>
-                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=600" /></div>
-                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=600" /></div>
-                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600" /></div>
-            </div>
-        </div>
-
-        <div class="nav-btn-container">
-            <div class="custom-nav prev-slide">←</div>
-            <div class="custom-nav next-slide">→</div>
-        </div>
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
