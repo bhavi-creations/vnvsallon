@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreenika Services Bootstrap Timeline</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --sreenika-dark: #000000;
+            --sreenika-accentt: #dcc136;
+            --border-glow: rgba(220, 193, 54, 0.3);
+            --soft-black: #1a1a1a;
+        }
+
+        body {
+            background-color: var(--sreenika-dark);
+            font-family: 'Poppins', sans-serif;
+            color: var(--sreenika-accentt);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .service-main-container {
+            padding: 80px 0;
+            width: 100%;
+        }
+
+        .service-title-head {
+            font-size: 2.5rem;
+            letter-spacing: 5px;
+            font-weight: 700;
+            text-shadow: 0 0 15px var(--border-glow);
+            margin-bottom: 3rem;
+        }
+
+        /* Timeline Wrapper */
+        .service-timeline-wrapper {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 400px; /* Space for top/bottom boxes */
+        }
+
+        /* Straight Line using Bootstrap utilities + Custom CSS */
+        .service-straight-line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: var(--sreenika-accentt);
+            box-shadow: 0 0 15px var(--sreenika-accentt);
+            z-index: 1;
+            transform: translateY(-50%);
+        }
+
+        .service-item-box {
+            position: relative;
+            z-index: 2;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* The Dot */
+        .service-dot-marker {
+            width: 20px;
+            height: 20px;
+            background: var(--sreenika-accentt);
+            border-radius: 50%;
+            border: 3px solid var(--sreenika-dark);
+            box-shadow: 0 0 12px var(--sreenika-accentt);
+        }
+
+        /* Service Card Styling */
+        .service-info-card {
+            position: absolute;
+            background: var(--soft-black);
+            border: 1px solid var(--sreenika-accentt);
+            padding: 1.2rem;
+            width: 200px;
+            border-radius: 4px;
+            text-decoration: none;
+            color: var(--sreenika-accentt);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 3;
+            text-align: center;
+        }
+
+        /* Hover Pop-up Effect */
+        .service-info-card:hover {
+            transform: scale(1.1) translateY(var(--hover-translate));
+            background: var(--sreenika-accentt);
+            color: var(--sreenika-dark) !important;
+            box-shadow: 0 0 30px var(--sreenika-accentt);
+        }
+
+        .service-info-card:hover .service-desc-text {
+            color: var(--sreenika-dark);
+        }
+
+        /* Card Positions */
+        .service-pos-top { 
+            bottom: 40px; 
+            --hover-translate: -15px;
+        }
+        .service-pos-bottom { 
+            top: 40px; 
+            --hover-translate: 15px;
+        }
+
+        .service-name-label {
+            display: block;
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+
+        .service-desc-text {
+            display: block;
+            font-size: 0.75rem;
+            color: #ccc;
+            line-height: 1.4;
+            transition: color 0.3s;
+        }
+
+        /* Responsive Mobile View (Bootstrap Breakpoint) */
+        @media (max-width: 991px) {
+            .service-timeline-wrapper {
+                flex-direction: column;
+                padding-left: 40px;
+            }
+            .service-straight-line {
+                width: 2px;
+                height: 100%;
+                left: 50px;
+                top: 0;
+                transform: none;
+            }
+            .service-item-box {
+                flex-direction: row;
+                width: 100%;
+                justify-content: flex-start;
+                margin-bottom: 140px; /* Added spacing for mobile boxes */
+            }
+            .service-info-card {
+                position: relative;
+                left: 40px;
+                top: 0 !important;
+                bottom: 0 !important;
+                width: 80%;
+                text-align: left;
+            }
+            .service-dot-marker {
+                position: absolute;
+                left: -10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container service-main-container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h1 class="service-title-head">OUR SERVICES</h1>
+        </div>
+    </div>
+
+    <div class="service-timeline-wrapper">
+        <div class="service-straight-line"></div>
+
+        <div class="service-item-box">
+            <a href="#" class="service-info-card service-pos-bottom shadow">
+                <span class="service-name-label">✂ Hair Service</span>
+                <span class="service-desc-text">Premium haircuts and professional styling for everyone.</span>
+            </a>
+            <div class="service-dot-marker"></div>
+        </div>
+
+        <div class="service-item-box">
+            <a href="#" class="service-info-card service-pos-top shadow">
+                <span class="service-name-label">💄 Bridal Service</span>
+                <span class="service-desc-text">Elegant makeup and hair for your special wedding day.</span>
+            </a>
+            <div class="service-dot-marker"></div>
+        </div>
+
+        <div class="service-item-box">
+            <a href="#" class="service-info-card service-pos-bottom shadow">
+                <span class="service-name-label">🤵 Groom Service</span>
+                <span class="service-desc-text">Exclusive grooming and skin care for the modern man.</span>
+            </a>
+            <div class="service-dot-marker"></div>
+        </div>
+
+        <div class="service-item-box">
+            <a href="#" class="service-info-card service-pos-top shadow">
+                <span class="service-name-label">📷 Spy Device</span>
+                <span class="service-desc-text">High-tech security and surveillance equipment services.</span>
+            </a>
+            <div class="service-dot-marker"></div>
+        </div>
+
+        <div class="service-item-box">
+            <a href="#" class="service-info-card service-pos-bottom shadow">
+                <span class="service-name-label">💇 Hair Extraction</span>
+                <span class="service-desc-text">Advanced and safe hair restoration treatments.</span>
+            </a>
+            <div class="service-dot-marker"></div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Appointment Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;500&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --sreenika-accent: #d4af37;
+            ---sreenika-dark: #080808;
+          --border-glow: #161616;
+
+
+            
+        }
+
+        body {
+            background-color: var(---sreenika-dark);
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .appointment-section {
+            padding: 80px 0;
+        }
+
+        /* Form Card */
+        .appointment-card {
+            background: var(--appointment-dark-gray);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            padding: 40px;
+            height: 100%;
+            /* Important */
+        }
+
+        .appointment-title {
+            font-family: 'Cinzel', serif;
+            color: var(--sreenika-accent);
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+        }
+
+        .appointment-form .form-control,
+        .appointment-form .form-select {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.4);
+            border-radius: 0;
+            color: #fff;
+            padding: 12px 5px;
+            margin-bottom: 20px;
+        }
+
+        .appointment-form .form-control:focus {
+            background: transparent;
+            box-shadow: none;
+            border-bottom-color: var(--sreenika-accent);
+            color: #fff;
+        }
+
+        .appointment-form label {
+            color: var(--sreenika-accent);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+        }
+
+        .appointment-btn {
+            background: var(--sreenika-accent);
+            color: #000;
+            border: none;
+            padding: 12px;
+            font-weight: 600;
+            width: 100%;
+            transition: 0.4s;
+        }
+
+        .appointment-btn:hover {
+            background: #fff;
+        }
+
+        /* --- Image Grid Logic --- */
+        .appointment-image-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            /* Bootstrap gap g-3 equivalent */
+            height: 100%;
+        }
+
+        .appointment-top-row {
+            display: flex;
+            gap: 16px;
+            flex: 1;
+            /* Takes 50% height */
+        }
+
+        .appointment-bottom-row {
+            flex: 1;
+            /* Takes 50% height */
+        }
+
+        .img-box {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .img-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Fill the area without stretching */
+            transition: 0.5s;
+        }
+
+        .img-box:hover img {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 991px) {
+            .appointment-image-wrapper {
+                height: 500px;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="appointment-section">
+        <div class="container">
+            <div class="row g-4 align-items-stretch">
+
+                <div class="col-lg-6">
+                    <div class="appointment-card">
+                        <h2 class="appointment-title text-center">Book Your Session</h2>
+                        <form class="appointment-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Full Name</label>
+                                    <input type="text" class="form-control" placeholder="John Doe" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Phone Number</label>
+                                    <input type="tel" class="form-control" placeholder="+91" required>
+                                </div>
+                            </div>
+
+                            <label>Select Service</label>
+                            <select class="form-select">
+                                <option selected disabled>Choose a service</option>
+                                <option>Gold Facial Therapy</option>
+                                <option>Premium Hair Styling</option>
+                            </select>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Date</label>
+                                    <input type="date" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Time</label>
+                                    <input type="time" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <label>Special Instructions</label>
+                            <textarea class="form-control" rows="2" placeholder="Message"></textarea>
+
+                            <button type="submit" class="appointment-btn">Request Appointment</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="appointment-image-wrapper">
+                        <div class="appointment-top-row">
+                            <div class="img-box">
+                                <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&q=80&w=800"
+                                    alt="Makeup">
+                            </div>
+                            <div class="img-box">
+                                <img src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&q=80&w=800"
+                                    alt="Spa">
+                            </div>
+                        </div>
+                        <div class="appointment-bottom-row">
+                            <div class="img-box">
+                                <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=800"
+                                    alt="Hair Styling">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

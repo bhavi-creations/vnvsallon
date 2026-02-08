@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V&V Premium Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <style>
+        :root {
+            --sreenika-dark: #000000;
+            --sreenika-accentt: #dcc136; /* Gold */
+            --border-glow: rgba(220, 193, 54, 0.3);
+            --soft-black: #1a1a1a;
+        }
+
+        body {
+            background-color: var(--sreenika-dark);
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .vv-gold-text { color: var(--sreenika-accentt); }
+        
+        /* Main Gallery Wrapper */
+        .vv-main-wrapper {
+            padding: 80px 0;
+            background-color: var(--sreenika-dark);
+        }
+
+        .vv-slider-container {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 90px;
+        }
+
+        /* Symmetric Card Styling */
+        .vv-visual-card {
+            background-position: center;
+            background-size: cover;
+            width: 320px; 
+            height: 480px;
+            border-radius: 24px;
+            border: 2px solid var(--soft-black);
+            transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+            filter: brightness(0.3) grayscale(1);
+            transform: scale(0.85);
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Active Focus Slide */
+        .swiper-slide-active .vv-visual-card {
+            filter: brightness(1) grayscale(0);
+            transform: scale(1.1); 
+            border-color: var(--sreenika-accentt);
+            box-shadow: 0px 20px 60px var(--border-glow);
+            z-index: 15;
+        }
+
+        /* Balanced Neighbor Slides */
+        .swiper-slide-prev .vv-visual-card, 
+        .swiper-slide-next .vv-visual-card {
+            filter: brightness(0.5) grayscale(0.4);
+            transform: scale(0.95);
+            opacity: 0.9;
+        }
+
+        .vv-visual-card img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 22px;
+        }
+
+        /* Navigation Group */
+        .vv-nav-panel {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .vv-btn-circle {
+            width: 65px;
+            height: 65px;
+            border: 1px solid var(--sreenika-accentt);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: var(--sreenika-accentt);
+            transition: all 0.4s ease;
+            background: transparent;
+            font-size: 1.4rem;
+        }
+
+        .vv-btn-circle:hover {
+            background: var(--sreenika-accentt);
+            color: var(--sreenika-dark);
+            box-shadow: 0 0 25px var(--border-glow);
+        }
+
+        /* Premium Pills */
+        .vv-filter-row .vv-pill {
+            background: transparent;
+            border: 1px solid var(--soft-black);
+            color: #999;
+            padding: 12px 30px;
+            border-radius: 100px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+        }
+
+        .vv-pill.active, .vv-pill:hover {
+            background: var(--sreenika-accentt);
+            color: var(--sreenika-dark);
+            border-color: var(--sreenika-accentt);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<section class="vv-main-wrapper text-center">
+    <div class="container">
+        <p class="text-uppercase small tracking-widest vv-gold-text fw-bold mb-2">V&V Premium Gallery</p>
+        <h1 class="fw-bold mb-4" style="font-family: 'Playfair Display', serif; font-size: 3rem;">Visual Excellence</h1>
+        <p class="text-secondary opacity-75 mx-auto" style="max-width: 600px;">
+            A curated lookbook of our flagship aesthetics, where every frame captures the symmetry of luxury.
+        </p>
+
+        <div class="vv-filter-row d-flex flex-wrap justify-content-center gap-3 my-5">
+            <span class="vv-pill active">Gallery All</span>
+            <span class="vv-pill">Salon Tour</span>
+            <span class="vv-pill">Elite Styling</span>
+            <span class="vv-pill">Spa Haven</span>
+            <span class="vv-pill">Academy</span>
+        </div>
+
+        <div class="swiper vv-slider-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="vv-visual-card"><img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=600" /></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="vv-visual-card"><img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=600" /></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="vv-visual-card"><img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?auto=format&fit=crop&w=600" /></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="vv-visual-card"><img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=600" /></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="vv-visual-card"><img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=600" /></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="vv-visual-card"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600" /></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vv-nav-panel">
+            <div class="vv-btn-circle vv-go-prev">←</div>
+            <div class="vv-btn-circle vv-go-next">→</div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+    const flagshipSwiper = new Swiper(".vv-slider-container", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        loop: true,
+        slidesPerView: "auto", 
+        initialSlide: 2,
+        speed: 1000,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 200,
+            modifier: 1.2,
+            slideShadows: false,
+        },
+        navigation: {
+            nextEl: ".vv-go-next",
+            prevEl: ".vv-go-prev",
+        },
+        breakpoints: {
+            320: { slidesPerView: 1, spaceBetween: 20 },
+            768: { slidesPerView: 2, spaceBetween: 10 },
+            1200: { slidesPerView: 3, spaceBetween: -50 } 
+        }
+    });
+</script>
+
+</body>
+</html>
