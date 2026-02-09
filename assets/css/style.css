@@ -831,13 +831,18 @@
 
         .appointment-form .form-control,
         .appointment-form .form-select {
-            background: transparent;
+            /* background: transparent; */
+            background: #0d0d0d;;
             border: none;
             border-bottom: 1px solid rgba(212, 175, 55, 0.4);
             border-radius: 0;
             color: #fff;
             padding: 12px 5px;
             margin-bottom: 20px;
+        }
+        .form-select option { 
+            background-color: rgb(0, 0, 0);
+
         }
 
         .appointment-form .form-control:focus {
@@ -1255,7 +1260,7 @@
             color: #dcc136 !important;
         }
 
-        .index_address a {
+        .index_addres a{
             color: #ffffff !important;
         }
 
@@ -1271,3 +1276,200 @@
 
 
         /* reviews   */
+
+        /* appointment button  */
+        .appointment_button a{
+            background-color:#dcc136;
+             padding: 10px 20px ;
+            border-radius: 10px;
+            color: black !important;
+            font-weight: 600;
+        }
+
+        .appointment_button a:hover{
+            background-color: black;
+            border: 1px solid #dcc136;
+            color: #dcc136 !important;
+        }
+
+
+
+        /* kakinada bracnch  */
+
+          /* Unique Container Layout */
+        .snk-main-wrapper {
+            padding: 60px 20px;
+        }
+
+        /* --- Left Side: Service Navigation --- */
+        .snk-service-navigator {
+            position: sticky;
+            top: 20px;
+        }
+
+        .snk-nav-title {
+            color: var(--sreenika-accentt);
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .snk-category-link {
+            display: block;
+            padding: 14px 18px;
+            background: var(--soft-black);
+            border: 1px solid var(--border-glow);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        .snk-category-link:hover,
+        .snk-category-link.snk-active {
+            background: var(--sreenika-accentt);
+            color: var(--snk-primary-black);
+            border-color: var(--sreenika-accentt);
+            font-weight: 600;
+            transform: translateX(8px);
+        }
+
+        /* --- Middle: Core Content Area --- */
+        .snk-content-vault {
+            background: linear-gradient(145deg, #111, #050505);
+            border: 1px solid var(--border-glow);
+            border-radius: 20px;
+            padding: 35px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .snk-hero-frame {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+
+        .snk-hero-frame img {
+            width: 100%;
+            display: block;
+            transition: transform 0.8s ease;
+        }
+
+        .snk-hero-frame:hover img {
+            transform: scale(1.05);
+        }
+
+        .snk-section-heading {
+            color: var(--sreenika-accentt);
+            font-weight: 800;
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+
+        .snk-feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .snk-feature-list li {
+            padding: 8px 0;
+            color: var(--snk-text-dim);
+        }
+
+        .snk-feature-list li::before {
+            content: '✦';
+            color: var(--sreenika-accentt);
+            margin-right: 10px;
+        }
+
+        /* --- Right Side: Booking Portal --- */
+        .snk-booking-portal {
+            background: var(--soft-black);
+            border: 1px solid var(--sreenika-accentt);
+            border-radius: 20px;
+            padding: 30px;
+            position: sticky;
+            top: 20px;
+        }
+
+        .snk-portal-header h3 {
+            color: var(--sreenika-accentt);
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .snk-input-field {
+            background: var(--snk-input-bg);
+            border: 1px solid #333;
+            color: #fff;
+            border-radius: 10px;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            width: 100%;
+            transition: 0.3s;
+        }
+
+        .snk-input-field:focus {
+            outline: none;
+            border-color: var(--sreenika-accentt);
+            box-shadow: 0 0 10px var(--border-glow);
+        }
+
+        .snk-submit-trigger {
+            background: var(--sreenika-accentt);
+            color: var(--snk-primary-black);
+            width: 100%;
+            border: none;
+            padding: 14px;
+            border-radius: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            transition: 0.3s;
+        }
+
+        .snk-submit-trigger:hover {
+            background: #fff;
+            transform: translateY(-3px);
+        }
+
+        /* --- Responsive Logic --- */
+        @media (max-width: 991px) {
+            .snk-order-content {
+                order: 1;
+            }
+
+            .snk-order-nav {
+                order: 2;
+            }
+
+            .snk-order-form {
+                order: 3;
+            }
+
+            .snk-main-wrapper {
+                padding: 30px 15px;
+            }
+        }
+
+
+
+
+        /* appointment pages  */
+      
+
+        /* hair section  */
+        .snk-feature-list li{
+            color: white;
+        }
+
+        .hair_secton_heaign{
+            color:gold;
+        }
+
+        .snk-input-field option{
+            background-color: BLACK;
+        }

@@ -9,7 +9,7 @@
                         <source src="./assets/img/v & v saloon edit.mp4" type="video/mp4">
                     </video>
                     <div class="reel-label">
-                        <p class="city-title"> <a href=""> Kakinada</a>   </p>
+                        <p class="city-title index_addres"> <a href="https://maps.app.goo.gl/T7eEeHqAWMh3ExPJ8"> Kakinada</a> </p>
                     </div>
                 </div>
             </div>
@@ -20,7 +20,7 @@
                         <source src="./assets/img/v & v saloon edit.mp4" type="video/mp4">
                     </video>
                     <div class="reel-label">
-                        <p class="city-title">  <a href="">Visakhapatnam</a>   </p>
+                        <p class="city-title index_addres "> <a href="https://maps.app.goo.gl/TrNSvPF8Htzk1RZd6">Visakhapatnam</a> </p>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                         <source src="./assets/img/v & v saloon edit.mp4" type="video/mp4">
                     </video>
                     <div class="reel-label">
-                        <p class="city-title index_addres"> <a href="">Madhuravada</a>       </p>
+                        <p class="city-title index_addres"> <a href="https://maps.app.goo.gl/AnpinvCfKwtgexhU8">Madhuravada</a> </p>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                     <div class="sn-glow-circle-sm"></div>
                     <div class="sn-gold-dots"></div>
 
-                    <img src="./assets/img/g1.jpg"
+                    <img src="./assets/img/VISHNU-SIR.jpg"
                         alt="Professional working" class="sn-featured-img">
 
                     <div class="sn-stat-card sn-stat-pos-1">
@@ -146,7 +146,7 @@
             <div class="service-straight-line"></div>
 
             <div class="service-item-box">
-                <a href="#" class="service-info-card service-pos-bottom shadow">
+                <a href="hair_services.php" class="service-info-card service-pos-bottom shadow">
                     <span class="service-name-label">✂ Hair Service</span>
                     <span class="service-desc-text">Premium haircuts and professional styling for everyone.</span>
                 </a>
@@ -154,7 +154,7 @@
             </div>
 
             <div class="service-item-box">
-                <a href="#" class="service-info-card service-pos-top shadow">
+                <a href="hair_services.php" class="service-info-card service-pos-top shadow">
                     <span class="service-name-label">💄 Bridal Service</span>
                     <span class="service-desc-text">Elegant makeup and hair for your special wedding day.</span>
                 </a>
@@ -162,7 +162,7 @@
             </div>
 
             <div class="service-item-box">
-                <a href="#" class="service-info-card service-pos-bottom shadow">
+                <a href="hair_services.php" class="service-info-card service-pos-bottom shadow">
                     <span class="service-name-label">🤵 Groom Service</span>
                     <span class="service-desc-text">Exclusive grooming and skin care for the modern man.</span>
                 </a>
@@ -178,7 +178,7 @@
             </div>
 
             <div class="service-item-box">
-                <a href="#" class="service-info-card service-pos-bottom shadow">
+                <a href="" class="service-info-card service-pos-bottom shadow">
                     <span class="service-name-label">💇 Hair Extraction</span>
                     <span class="service-desc-text">Advanced and safe hair restoration treatments.</span>
                 </a>
@@ -264,7 +264,7 @@
     </div>
 </section>  -->
 
-<?php include 's1.php' ; ?>
+<?php include 's1.php'; ?>
 
 
 
@@ -290,12 +290,34 @@
                             </div>
                         </div>
 
-                        <label>Select Service</label>
-                        <select class="form-select">
-                            <option selected disabled>Choose a service</option>
-                            <option>Gold Facial Therapy</option>
-                            <option>Premium Hair Styling</option>
-                        </select>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Select Service</label>
+                                <select class="form-select">
+                                    <option selected disabled>Choose a service</option>
+                                    <option> Hair services </option>
+                                    <option> Beauty services </option>
+                                    <option> beidal & groom services </option>
+                                    <option> Spa services </option>
+                                    <option> Hair xtraction </option>
+
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Select Branch</label>
+                                <select class="form-select">
+                                    <option selected disabled>Choose a Branch</option>
+                                    <option> Kakinada </option>
+                                    <option>Visakhapatnam </option>
+                                    <option> Madhuravada </option>
+
+                                    <option></option>
+                                </select>
+                            </div>
+                        </div>
+
+
 
                         <div class="row">
                             <div class="col-md-6">
@@ -308,7 +330,7 @@
                             </div>
                         </div>
 
-                        <label>Special Instructions</label>
+                        <label>Meassage</label>
                         <textarea class="form-control" rows="2" placeholder="Message"></textarea>
 
                         <button type="submit" class="appointment-btn">Request Appointment</button>
@@ -456,23 +478,23 @@
 
 
 <!-- reviews  -->
- <script>
+<script>
     var swiper = new Swiper(".mySwiper", {
         effect: "coverflow",
         grabCursor: true,
         centeredSlides: true, // Center image focus
-        loop: true,           // Infinite loop
-        slidesPerView: "auto", 
-        initialSlide: 2,      // Starts from middle image
+        loop: true, // Infinite loop
+        slidesPerView: "auto",
+        initialSlide: 2, // Starts from middle image
         autoplay: {
             delay: 3000,
             disableOnInteraction: false,
         },
         coverflowEffect: {
-            rotate: 0,        // No rotation for clean look
-            stretch: 0,       // No stretching
-            depth: 100,       // Distance of side images
-            modifier: 2.5,    // Scale effect
+            rotate: 0, // No rotation for clean look
+            stretch: 0, // No stretching
+            depth: 100, // Distance of side images
+            modifier: 2.5, // Scale effect
             slideShadows: false,
         },
         navigation: {
@@ -481,9 +503,18 @@
         },
         // Breakpoints for perfect symmetry on all screens
         breakpoints: {
-            320: { slidesPerView: 1, spaceBetween: 20 },
-            768: { slidesPerView: 2, spaceBetween: 10 },
-            1024: { slidesPerView: 3, spaceBetween: -30 } // Shows 1 center + 1 left + 1 right clearly
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 20
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 10
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: -30
+            } // Shows 1 center + 1 left + 1 right clearly
         }
     });
 </script>

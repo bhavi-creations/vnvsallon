@@ -1,29 +1,75 @@
-<?php include 'header.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V&V Salon - Appointments & Branches</title>
+    <title>V&V Salon Branch Cards</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
     <style>
         :root {
-            --sreenika-dark: #0b0b0b;
-            --sreenika-accent: #dcc136;
+            --sreenika-dark: #000000;
+            --sreenika-accentt: #dcc136;
             --border-glow: rgba(220, 193, 54, 0.3);
-            --card-bg: #1a1a1a;
-            --text-muted: #b0b0b0;
         }
 
         body {
             background-color: #121212;
-            color: #ffffff;
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            padding-bottom: 60px;
+            /* Dark background to make cards pop */
+            padding: 50px 0;
         }
 
+        /* Unique Class Names for the Card */
+        .snk-branch-card {
+            background-color: var(--sreenika-dark);
+            border: 1px solid var(--sreenika-accentt);
+            color: #ffffff;
+            transition: all 0.3s ease-in-out;
+            text-decoration: none;
+            /* Removes underline from link */
+            height: 100%;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .snk-branch-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px var(--border-glow);
+            border-color: #ffffff;
+            color: #ffffff;
+        }
+
+        .snk-card-title {
+            color: var(--sreenika-accentt);
+            font-family: 'Serif', 'Garamond', serif;
+            font-size: 1.5rem;
+            border-bottom: 1px solid var(--border-glow);
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .snk-contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+            color: #e0e0e0;
+        }
+
+        .snk-icon {
+            color: var(--sreenika-accentt);
+            margin-right: 12px;
+            font-size: 1.1rem;
+        }
+
+        .snk-address-text {
+            line-height: 1.4;
+        }
+
+        /* appointment  */
         /* --- Branch Cards Styles --- */
         .snk-v2-branch-card {
             background-color: var(--sreenika-dark);
@@ -97,8 +143,7 @@
         }
 
         .snk-v2-btn-book {
-            background-color: gold !important;
-            font-size: 20px;
+            background-color: var(--sreenika-accent);
             color: #000;
             font-weight: 800;
             border: none;
@@ -131,109 +176,129 @@
 
 <body>
 
-    <div class="container mt-5">
-        <div class="text-center mb-5">
-            <h2 style="color: var(--sreenika-accent); font-weight: bold;">OUR BRANCHES</h2>
-            <p class="text-secondary">Select a branch to book your appointment</p>
-        </div>
+    <div class="container">
+        <div class="row g-4">
 
-        <div class="row g-4 mb-5">
             <div class="col-md-4">
-                <div class="snk-v2-branch-card p-4 active" onclick="selectBranch('MVP Branch', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.000000000000!2d83.3333333!3d17.7333333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943376673574b%3A0xf639a0499e71000!2sMVP%20Colony!5e0!3m2!1sen!2sin!4v1700000000000')">
-                    <h2 class="snk-v2-card-title text-center">MVP Branch</h2>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
-                        <span>Mvp double Rd, opp. Jet TTd, Visakhapatnam, AP 530017</span>
+                <a href="https://maps.app.goo.gl/TrNSvPF8Htzk1RZd6" class="snk-branch-card p-4">
+                    <h2 class="snk-card-title text-center">MVP Branch</h2>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-geo-alt-fill snk-icon"></i>
+                        <span class="snk-address-text">Mvp double Rd, ttd Kalyana mandapam road, opp. Jet TTd,
+                            Visakhapatnam, Andhra Pradesh 530017</span>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-telephone-fill snk-v2-icon"></i>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-telephone-fill snk-icon"></i>
                         <span>+91-8125801107</span>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-whatsapp snk-v2-icon"></i>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-whatsapp snk-icon"></i>
                         <span>+91-8125801107</span>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-envelope-fill snk-v2-icon"></i>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-envelope-fill snk-icon"></i>
                         <span>vandvsalonvizag@gmail.com</span>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-clock-fill snk-v2-icon"></i>
-                        <span>9am - 9pm</span>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-clock-fill snk-icon"></i>
+                        <span>9am-9pm</span>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-md-4">
-                <div class="snk-v2-branch-card p-4" onclick="selectBranch('V&V SALON & SPA (Kakinada)', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3816.000000000000!2d82.2333333!3d16.9333333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a38284200000000%3A0x0!2sKakinada!5e0!3m2!1sen!2sin!4v1700000000000')">
-                    <h2 class="snk-v2-card-title text-center">Kakinada Branch</h2>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
-                        <span>Mummidivari St, Surya Rao Peta, Kakinada, AP 533001</span>
+                <a href="https://maps.app.goo.gl/T7eEeHqAWMh3ExPJ8" class="snk-branch-card p-4">
+                    <h2 class="snk-card-title text-center">V&V SALON & SPA</h2>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-geo-alt-fill snk-icon"></i>
+                        <span class="snk-address-text">Mummidivari Street, Surya Rao Peta, Kakinada, Andhra Pradesh,
+                            533001<br>
+                            <small class="text-secondary">(Landmark: Apollo Hospital Back side)</small></span>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-telephone-fill snk-v2-icon"></i>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-telephone-fill snk-icon"></i>
                         <span>+91-9000021107</span>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-whatsapp snk-v2-icon"></i>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-whatsapp snk-icon"></i>
                         <span>+91-9000021107</span>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-envelope-fill snk-v2-icon"></i>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-envelope-fill snk-icon"></i>
                         <span>vnvkakinada@gmail.com</span>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-clock-fill snk-v2-icon"></i>
-                        <span>9am - 9pm</span>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-clock-fill snk-icon"></i>
+                        <span>9am-9pm</span>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-md-4">
-                <div class="snk-v2-branch-card p-4" onclick="selectBranch('Madhurwada Branch', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.000000000000!2d83.3500000!3d17.8000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39500000000000%3A0x0!2sMadhurwada!5e0!3m2!1sen!2sin!4v1700000000000')">
-                    <h2 class="snk-v2-card-title text-center">Madhurwada Branch</h2>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
-                        <span>Fab India Bldg, PM Palem, Madhurwada, Vizag, AP 530041</span>
+                <a href="https://maps.app.goo.gl/AnpinvCfKwtgexhU8" class="snk-branch-card p-4">
+                    <h2 class="snk-card-title text-center">Madhurwada Branch</h2>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-geo-alt-fill snk-icon"></i>
+                        <span class="snk-address-text">Fab India building, 3rd floor, midhilapuri colony, pm.palem,
+                            madhurwada, Visakhapatnam, Andhra Pradesh - 530041</span>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-telephone-fill snk-v2-icon"></i>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-telephone-fill snk-icon"></i>
                         <span>+91-9011186999</span>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-whatsapp snk-v2-icon"></i>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-whatsapp snk-icon"></i>
                         <span>+91-9011186999</span>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-envelope-fill snk-v2-icon"></i>
+
+                    <div class="snk-contact-item">
+                        <i class="bi bi-envelope-fill snk-icon"></i>
                         <span>vandvsalonmadhurwada@gmail.com</span>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-clock-fill snk-v2-icon"></i>
-                        <span>9am - 9pm</span>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row g-0 snk-v2-main-container mb-5">
+                    <div class="snk-contact-item">
+                        <i class="bi bi-clock-fill snk-icon"></i>
+                        <span>9am-9pm</span>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row g-0 snk-v2-main-container">
             <div class="col-lg-6 p-4 p-md-5">
                 <h3 class="mb-4" style="color: var(--sreenika-accent);">Book Appointment</h3>
                 <form id="appointmentForm">
                     <div class="mb-3">
-                        <!-- <label class="form-label text-secondary small">BRANCH SELECTED</label> -->
-                        <!-- <input type="text" id="selectedBranch" class="form-control snk-v2-form-control" readonly value="MVP Branch"> -->
+                        <label class="form-label text-secondary small">BRANCH SELECTED</label>
+                        <input type="text" id="selectedBranch" class="form-control snk-v2-form-control" readonly
+                            value="MVP Branch">
                     </div>
 
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label class="form-label small">NAME</label>
-                            <input type="text" class="form-control snk-v2-form-control" placeholder="Enter your name" required>
+                            <input type="text" class="form-control snk-v2-form-control" placeholder="Enter your name"
+                                required>
                         </div>
                         <div class="col-md-6 mb-3">
                             <label class="form-label small">PHONE</label>
-                            <input type="tel" class="form-control snk-v2-form-control" placeholder="Mobile number" required>
+                            <input type="tel" class="form-control snk-v2-form-control" placeholder="Mobile number"
+                                required>
                         </div>
                     </div>
 
@@ -249,25 +314,9 @@
                                 <option>Bridal / Occasion Makeup</option>
                             </select>
                         </div>
-
-
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label small">Branch</label>
-                            <select class="form-select snk-v2-form-control">
-                                <option selected disabled>Choose Branch</option>
-                                <<option> Kakinada </option>
-                                    <option>Visakhapatnam </option>
-                                    <option> Madhuravada </option>
-                            </select>
-                        </div>
                         <div class="col-md-6 mb-3">
                             <label class="form-label small">DATE</label>
                             <input type="date" class="form-control snk-v2-form-control" required>
-                        </div>
-
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label small">Meassage</label>
-                            <input type="text" class="form-control snk-v2-form-control" placeholder="meassage">
                         </div>
                     </div>
 
@@ -279,8 +328,7 @@
                 <div class="snk-v2-map-wrapper h-100">
                     <iframe id="branchMap"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.000000000000!2d83.3333333!3d17.7333333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943376673574b%3A0xf639a0499e71000!2sMVP%20Colony!5e0!3m2!1sen!2sin!4v1700000000000"
-                        allowfullscreen=""
-                        loading="lazy">
+                        allowfullscreen="" loading="lazy">
                     </iframe>
                 </div>
             </div>
@@ -314,15 +362,15 @@
         }
 
         // Form Submit handling
-        document.getElementById('appointmentForm').onsubmit = function(e) {
+        document.getElementById('appointmentForm').onsubmit = function (e) {
             e.preventDefault();
             const branch = document.getElementById('selectedBranch').value;
             alert('Success! Your appointment request for ' + branch + ' has been sent. We will call you back soon.');
         };
     </script>
 
+    </div>
+
 </body>
 
 </html>
-
-<?php include 'footer.php '; ?>

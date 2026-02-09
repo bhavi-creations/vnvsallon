@@ -35,7 +35,7 @@
                     <div class="service-content">
                         <h5 class="service-title">Hair Service</h5>
                         <p class="service-text">Professional hair styling and luxury treatments for a modern look.</p>
-                        <a href="hair.html" class="service-btn">READ MORE</a>
+                        <a href="hair_services.php" class="service-btn">READ MORE</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                     <div class="service-content">
                         <h5 class="service-title">Beauty Service</h5>
                         <p class="service-text">Advance facial and skin therapies for a natural glowing skin.</p>
-                        <a href="beauty.html" class="service-btn">READ MORE</a>
+                        <a href="hair_services.php" class="service-btn">READ MORE</a>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     <div class="service-content">
                         <h5 class="service-title">Bridal & Groom  Service</h5>
                         <p class="service-text">Making your wedding day magical with elite makeup and styling.</p>
-                        <a href="bridal.html" class="service-btn">READ MORE</a>
+                        <a href="hair_services.php" class="service-btn">READ MORE</a>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                     <div class="service-content">
                         <h5 class="service-title">Spa Service</h5>
                         <p class="service-text">dvanced hygiene standards and professional therapists for your comfort</p>
-                        <a href="spy.html" class="service-btn">READ MORE</a>
+                        <a href="hair_services.php" class="service-btn">READ MORE</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                     <div class="service-content">
                         <h5 class="service-title">Hair Extraction</h5>
                         <p class="service-text">Safe and hygienic techniques for smooth, clean skin.</p>
-                        <a href="groom.html" class="service-btn">READ MORE</a>
+                        <a href="hair_services.php  " class="service-btn">READ MORE</a>
                     </div>
                 </div>
             </div>

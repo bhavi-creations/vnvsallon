@@ -24,16 +24,17 @@
             <div class="row">
 
                 <div class="col-md-3 mb-4">
-                    <div class="sn-badge-label">Details</div>
+                    <div class="sn-badge-label">QUOTE</div>
                     <!-- <h5 class="footer-heading">Details</h5> -->
-                    <p class=" detsils_section"><i class="fa-solid fa-location-dot me-2"></i> Mummidivari St, Surya Rao Peta, Kakinada, Andhra Pradesh 533001</p>
+                    <!-- <p class=" detsils_section"><i class="fa-solid fa-location-dot me-2"></i> Mummidivari St, Surya Rao Peta, Kakinada, Andhra Pradesh 533001</p>
                     <p class="detsils_section"><i class="fa-solid fa-phone me-2"></i> +91 9000021107</p>
-                    <p class="detsils_section"><i class="fa-solid fa-paper-plane me-2"></i> vnvsaloon@gmail.com</p>
+                    <p class="detsils_section"><i class="fa-solid fa-paper-plane me-2"></i> vnvsaloon@gmail.com</p> -->
 
                     <!-- <div class="input-group mt-4">
                         <input type="text" class="form-control newsletter-input" placeholder="Enter email address">
                         <button class="btn btn-gold" type="button"><i class="fa-solid fa-paper-plane"></i></button>
                     </div> -->
+                    <P> SELF CARE IS THE BEST KIND OF LOVE</P>
                 </div>
 
                 <div class="col-md-3 mb-4">
