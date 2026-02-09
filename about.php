@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="story-border" data-aos="fade-up" data-aos-delay="200">
-                    <p class="text-secondary">
+                    <p class="text-white">
                         Born into a Nayee Brahmin family, grooming was Vishnu's culture. At age 9, he was already sweeping floors and learning the art with pure dedication. After sharpening skills at <strong>Mirrors Hyderabad</strong> and <strong>Hakim Alim</strong>, he became the trusted stylist for icons like <strong>Naga Chaitanya, Arjun, and Lakshmi Manchu.</strong>
                     </p>
                 </div>
@@ -124,11 +124,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="value-item">
                         <span class="value-title">Ethical Business Always</span>
-                        <small class="text-secondary">Transparent pricing and genuine premium products only.</small>
+                        <small class="text-white">Transparent pricing and genuine premium products only.</small>
                     </div>
                     <div class="value-item">
                         <span class="value-title">Client Delight</span>
-                        <small class="text-secondary">Going beyond service to create unforgettable memories.</small>
+                        <small class="text-white">Going beyond service to create unforgettable memories.</small>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VnV saloon - Luxury Reels</title>
+    <title>Sreenika - Luxury Reels</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600&display=swap" rel="stylesheet">
     <link
@@ -37,7 +37,7 @@
                     <li class="nav-item"><a class="nav-link" href="branchs.php">Branches</a></li>
                     <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
                     <li class="nav-item"><a class="nav-link" href="blog.php">blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="appointment.php">Appointment</a></li>
+                    <li class="nav-item appointment_button"><a class="nav-link" href="appointment.php">Appointment</a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="#">Contact</a></li> -->
                 </ul>
             </div>

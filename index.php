@@ -9,7 +9,7 @@
                         <source src="./assets/img/v & v saloon edit.mp4" type="video/mp4">
                     </video>
                     <div class="reel-label">
-                        <p class="city-title">Kakinada</p>
+                        <p class="city-title"> <a href=""> Kakinada</a>   </p>
                     </div>
                 </div>
             </div>
@@ -20,7 +20,7 @@
                         <source src="./assets/img/v & v saloon edit.mp4" type="video/mp4">
                     </video>
                     <div class="reel-label">
-                        <p class="city-title">Visakhapatnam</p>
+                        <p class="city-title">  <a href="">Visakhapatnam</a>   </p>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                         <source src="./assets/img/v & v saloon edit.mp4" type="video/mp4">
                     </video>
                     <div class="reel-label">
-                        <p class="city-title">Madhuravada</p>
+                        <p class="city-title index_addres"> <a href="">Madhuravada</a>       </p>
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@
 
             <div class="service-item-box">
                 <a href="#" class="service-info-card service-pos-top shadow">
-                    <span class="service-name-label">💄 Bridal & Groom Service</span>
+                    <span class="service-name-label">💄 Bridal Service</span>
                     <span class="service-desc-text">Elegant makeup and hair for your special wedding day.</span>
                 </a>
                 <div class="service-dot-marker"></div>
@@ -163,16 +163,16 @@
 
             <div class="service-item-box">
                 <a href="#" class="service-info-card service-pos-bottom shadow">
-                    <span class="service-name-label">🤵 Beauty Service</span>
-                    <span class="service-desc-text">Advance facial and skin therapies for a natural glowing skin.</span>
+                    <span class="service-name-label">🤵 Groom Service</span>
+                    <span class="service-desc-text">Exclusive grooming and skin care for the modern man.</span>
                 </a>
                 <div class="service-dot-marker"></div>
             </div>
 
             <div class="service-item-box">
                 <a href="#" class="service-info-card service-pos-top shadow">
-                    <span class="service-name-label"> Spa service</span>
-                    <span class="service-desc-text">dvanced hygiene standards and professional therapists for your comfort</span>
+                    <span class="service-name-label">📷 Spy Device</span>
+                    <span class="service-desc-text">High-tech security and surveillance equipment services.</span>
                 </a>
                 <div class="service-dot-marker"></div>
             </div>
@@ -192,7 +192,7 @@
 
 
 <!-- reviews  -->
-<section class="review-testimonial-section">
+<!-- <section class="review-testimonial-section">
     <div class="container">
        
         <div class="review-title-wrapper mb-5 text-center">
@@ -262,9 +262,9 @@
             </div>
         </div>
     </div>
-</section> 
+</section>  -->
 
-
+<?php include 's1.php' ; ?>
 
 
 

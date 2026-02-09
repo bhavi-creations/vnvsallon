@@ -1,6 +1,8 @@
         :root {
             --sreenika-dark: #000000;
+            /* --sreenika-accentt:   #ffee9a; */
             --sreenika-accentt: #dcc136;
+
             /* Gold */
             --border-glow: rgba(220, 193, 54, 0.3);
             --soft-black: #1a1a1a;
@@ -15,6 +17,10 @@
             --dark-gold: #b8860b;
             --black: #0a0a0a;
             --soft-black: #1a1a1a;
+        }
+
+        a {
+            text-decoration: none !important;
         }
 
         body {
@@ -47,8 +53,47 @@
         .nav-link {
             color: var(--sreenika-accentt) !important;
             font-weight: 600;
-            margin: 10px;
+
         }
+
+        @media (max-width:768px) {
+            .nav-link {
+                margin: 10px;
+            }
+        }
+
+
+
+        @media (min-width:768px) and (max-width:992px) {
+            .nav-link {
+                margin: 10px;
+            }
+        }
+
+
+        @media (min-width:992px) and (max-width:1200px) {
+            .nav-link {
+                margin: 20px;
+                font-size: 25px;
+            }
+        }
+
+
+
+           @media  (min-width:1200px) {
+            .nav-link {
+                margin: 30px;
+                font-size: 25px;
+            }
+        }
+
+
+
+
+
+
+
+
 
         /* --- Reels Section --- */
         .reels-section {
@@ -304,7 +349,7 @@
             .sn-stat-pos-1 {
                 top: 15%;
                 left: -5%;
-                 color: gold;
+                color: gold;
             }
         }
 
@@ -320,14 +365,14 @@
             .sn-stat-pos-2 {
                 bottom: -15% !important;
                 right: -5%;
-                 color: gold;
+                color: gold;
             }
         }
 
         .sn-stat-pos-2 {
             bottom: 15%;
             right: -5%;
-             color: gold;
+            color: gold;
         }
 
         .sn-stat-val {
@@ -539,7 +584,7 @@
 
         /* reviews section  */
 
-         .review-testimonial-section {
+        .review-testimonial-section {
             padding: 30px 0;
         }
 
@@ -569,10 +614,10 @@
             will-change: transform;
         }
 
-       
+
         .review-item {
             flex: 0 0 100%;
-           
+
             padding: 10px;
             box-sizing: border-box;
         }
@@ -582,7 +627,7 @@
                 flex: 0 0 50%;
             }
 
-           
+
         }
 
         .review-card-premium {
@@ -634,7 +679,7 @@
             margin: 0;
         }
 
-       
+
         .review-nav-btn {
             position: absolute;
             top: 50%;
@@ -664,7 +709,7 @@
 
         .review-next-btn {
             right: 0;
-        } 
+        }
 
 
 
@@ -672,7 +717,7 @@
 
 
 
-        
+
         /* footer section stylings  */
         .custom-footer {
             background-color: #111;
@@ -747,7 +792,7 @@
         }
 
         .bottom-bar {
-            border-top: 1px solid #222;
+            border-top: 1px solid #f1c40f;
             padding-top: 20px;
             font-size: 0.9rem;
             color: #666;
@@ -1205,8 +1250,24 @@
             row-gap: 30px;
         }
 
-
-        .footer_section a {
-            list-style: none;
-            color: gold !important;
+        /* footer address  */
+        .footer_address a {
+            color: #dcc136 !important;
         }
+
+        .index_address a {
+            color: #ffffff !important;
+        }
+
+        .detsils_section {
+            color: #dcc136 !important;
+        }
+
+        /* .footer_last_section{
+            background-color: red;
+            margin-bottom: -50px;
+            align-items: center;
+        } */
+
+
+        /* reviews   */
