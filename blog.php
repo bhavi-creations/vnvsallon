@@ -1,27 +1,32 @@
-<?php include 'header.php' ; ?>
+<?php include 'header.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>V&V Premium Reviews</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-    
+
     <style>
         body {
-            background-color: #000; /* Deep Black Background */
+            background-color: #000;
+            /* Deep Black Background */
             font-family: 'Poppins', sans-serif;
             color: #fff;
         }
 
-        .section-padding { padding: 80px 0; }
+        .section-padding {
+            padding: 80px 0;
+        }
 
         .section-title {
             font-family: 'Playfair Display', serif;
             font-size: 2.5rem;
-            color: #d4af37; /* Gold Color */
+            color: #d4af37;
+            /* Gold Color */
             margin-bottom: 10px;
         }
 
@@ -35,14 +40,16 @@
         .custom-card {
             background-color: #111;
             border: 1px solid #222;
-            border-radius: 0; /* Square look like the image */
+            border-radius: 0;
+            /* Square look like the image */
             transition: all 0.4s ease-in-out;
             height: 100%;
             overflow: hidden;
         }
 
         .custom-card:hover {
-            transform: translateY(-15px); /* Moves up on hover */
+            transform: translateY(-15px);
+            /* Moves up on hover */
             border-color: #d4af37;
             box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
         }
@@ -60,10 +67,13 @@
         }
 
         .custom-card:hover img {
-            transform: scale(1.1); /* Image zooms on hover */
+            transform: scale(1.1);
+            /* Image zooms on hover */
         }
 
-        .card-body { padding: 25px; }
+        .card-body {
+            padding: 25px;
+        }
 
         .card-date {
             font-size: 0.8rem;
@@ -119,81 +129,84 @@
         }
     </style>
 </head>
+
 <body>
 
-<section class="section-padding">
-    <div class="container">
-        <div class="row mb-4">
-            <div class="col-md-8">
-                 <div class="sn-badge-label">Reviews & Blogs</div>
-                <!-- <p class="mb-0 text-uppercase small text-secondary">Reviews & Blogs</p> -->
-                <h2 class="section-title">Scented stories for every mood</h2>
+    <section class="section-padding">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-8">
+                    <div class="sn-badge-label">Reviews & Blogs</div>
+                    <!-- <p class="mb-0 text-uppercase small text-secondary">Reviews & Blogs</p> -->
+                    <h2 class="section-title">Scented stories for every mood</h2>
+                </div>
             </div>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="custom-card">
+                        <div class="card-img-container">
+                            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=500" alt="Review 1">
+                        </div>
+                        <div class="card-body">
+                            <span class="card-date">February 22, 2026 • Ethan Brooks</span>
+                            <h4 class="card-title">Daily skincare routine tips</h4>
+                            <p class="card-text">Expert advice for daily skincare routines to maintain healthy, glowing skin throughout the day...</p>
+                            <a href="#" class="read-more">Read more →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="custom-card">
+                        <div class="card-img-container">
+                            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=500" alt="Review 1">
+                        </div>
+                        <div class="card-body">
+                            <span class="card-date">March 15, 2026 • Lily Thompson</span>
+                            <h4 class="card-title">Achieving skin radiance naturally</h4>
+                            <p class="card-text">Natural methods to achieve a radiant complexion without harsh chemicals or expensive products...</p>
+                            <a href="#" class="read-more">Read more →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="custom-card">
+                        <div class="card-img-container">
+                            <img src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=500" alt="Review 3">
+                        </div>
+                        <div class="card-body">
+                            <span class="card-date">April 10, 2026 • Oliver Davis</span>
+                            <h4 class="card-title">Natural ingredients for skincare</h4>
+                            <p class="card-text">Explore the benefits of natural ingredients in your skincare products for better long-term results...</p>
+                            <a href="#" class="read-more">Read more →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="custom-card mt-lg-5">
+                        <div class="card-img-container">
+                            <img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=500" alt="Review 4">
+                        </div>
+                        <div class="card-body">
+                            <span class="card-date">June 5, 2026 • Ava Bennett</span>
+                            <h4 class="card-title">Essential oils for skincare</h4>
+                            <p class="card-text">Explore the use of essential oils for various benefits and how to apply them safely at home...</p>
+                            <a href="#" class="read-more">Read more →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="text-start mt-4">
+                <button class="btn view-all-btn">View more articles →</button>
+            </div> -->
         </div>
-
-        <div class="row g-4">
-            <div class="col-lg-3 col-md-6">
-                <div class="custom-card">
-                    <div class="card-img-container">
-                        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=500" alt="Review 1">
-                    </div>
-                    <div class="card-body">
-                        <span class="card-date">February 22, 2026 • Ethan Brooks</span>
-                        <h4 class="card-title">Daily skincare routine tips</h4>
-                        <p class="card-text">Expert advice for daily skincare routines to maintain healthy, glowing skin throughout the day...</p>
-                        <a href="#" class="read-more">Read more →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="custom-card">
-                    <div class="card-img-container">
-                        <img src="https://images.unsplash.com/photo-1556229167-7313009bc877?auto=format&fit=crop&w=500" alt="Review 2">
-                    </div>
-                    <div class="card-body">
-                        <span class="card-date">March 15, 2026 • Lily Thompson</span>
-                        <h4 class="card-title">Achieving skin radiance naturally</h4>
-                        <p class="card-text">Natural methods to achieve a radiant complexion without harsh chemicals or expensive products...</p>
-                        <a href="#" class="read-more">Read more →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="custom-card">
-                    <div class="card-img-container">
-                        <img src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=500" alt="Review 3">
-                    </div>
-                    <div class="card-body">
-                        <span class="card-date">April 10, 2026 • Oliver Davis</span>
-                        <h4 class="card-title">Natural ingredients for skincare</h4>
-                        <p class="card-text">Explore the benefits of natural ingredients in your skincare products for better long-term results...</p>
-                        <a href="#" class="read-more">Read more →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="custom-card mt-lg-5"> <div class="card-img-container">
-                        <img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=500" alt="Review 4">
-                    </div>
-                    <div class="card-body">
-                        <span class="card-date">June 5, 2026 • Ava Bennett</span>
-                        <h4 class="card-title">Essential oils for skincare</h4>
-                        <p class="card-text">Explore the use of essential oils for various benefits and how to apply them safely at home...</p>
-                        <a href="#" class="read-more">Read more →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="text-start mt-4">
-            <button class="btn view-all-btn">View more articles →</button>
-        </div>
-    </div>
-</section>
+    </section>
 
 </body>
-</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+</html>
