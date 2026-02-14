@@ -171,15 +171,15 @@
 
             <div class="service-item-box">
                 <a href="#" class="service-info-card service-pos-top shadow">
-                    <span class="service-name-label">📷 Spy Device</span>
-                    <span class="service-desc-text">High-tech security and surveillance equipment services.</span>
+                    <span class="service-name-label">📷Spa Service</span>
+                    <span class="service-desc-text">dvanced hygiene standards and professional therapists for your comfort</span>
                 </a>
                 <div class="service-dot-marker"></div>
             </div>
 
             <div class="service-item-box">
                 <a href="" class="service-info-card service-pos-bottom shadow">
-                    <span class="service-name-label">💇 Hair Extraction</span>
+                    <span class="service-name-label">💇 Hair Extensions</span>
                     <span class="service-desc-text">Advanced and safe hair restoration treatments.</span>
                 </a>
                 <div class="service-dot-marker"></div>
@@ -295,12 +295,12 @@
                             <div class="col-md-6">
                                 <label>Select Service</label>
                                 <select class="form-select">
-                                    <option selected disabled>Choose a service</option>
+                                    <option selected disabled>ChoosE your service</option>
                                     <option> Hair services </option>
                                     <option> Beauty services </option>
-                                    <option> beidal & groom services </option>
+                                    <option> Bridal & groom services </option>
                                     <option> Spa services </option>
-                                    <option> Hair xtraction </option>
+                                    <option> Hair Extensions </option>
 
                                 </select>
                             </div>

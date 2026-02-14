@@ -87,7 +87,7 @@
                         <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=500&q=80" class="service-img" alt="Groom Service">
                     </div>
                     <div class="service-content">
-                        <h5 class="service-title">Hair Extraction</h5>
+                        <h5 class="service-title">Hair Extensions</h5>
                         <p class="service-text">Safe and hygienic techniques for smooth, clean skin.</p>
                         <a href="hair_services.php  " class="service-btn">READ MORE</a>
                     </div>
