@@ -52,7 +52,7 @@
 </section>
 
 <!-- about section  -->
-<section class="sn-main-about-sec">
+<section class="sn-main-about-sec ">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -68,14 +68,18 @@
                 <a href="about.php" class="sn-cta-btn">Read More</a>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 ">
                 <div class="sn-hero-visual-box">
                     <div class="sn-glow-circle-lg"></div>
                     <div class="sn-glow-circle-sm"></div>
                     <div class="sn-gold-dots"></div>
 
+                       <img src="./assets/img/VISHNU-SIR.jpg"
+                        alt="Professional working" class="sn-featured-img  d-none d-md-block"  >
+
+
                     <img src="./assets/img/VISHNU-SIR.jpg"
-                        alt="Professional working" class="sn-featured-img">
+                        alt="Professional working" class="sn-featured-img d-block d-md-none"  style="width: 350px; height: auto;" >
 
                     <div class="sn-stat-card sn-stat-pos-1">
                         <div class="sn-stat-val">13+</div>

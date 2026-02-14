@@ -1473,3 +1473,11 @@
         .snk-input-field option{
             background-color: BLACK;
         }
+
+
+        /* about sectionstylings  */
+        @media (max-width:768px) {
+            .sn-featured-img{
+                width: 300px !important;
+            }
+        }
