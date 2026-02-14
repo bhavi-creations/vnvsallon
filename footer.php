@@ -111,7 +111,7 @@
             <section class="footer_last_section">
                 <div class="row bottom-bar mt-5" style="background-color: ;">
                     <div class="d-flex justify-content-center text-center text-md-start" style="color: gold; font-size: 20px;">
-                        vnv saloon Copyright ©2026 All rights reserved.
+                        vnv salon Copyright ©2026 All rights reserved.
                     </div>
 
                 </div>

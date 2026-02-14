@@ -143,7 +143,8 @@
                     <h2 class="snk-v2-card-title text-center">MVP Branch</h2>
                     <div class="snk-v2-info-item">
                         <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
-                        <span>Mvp double Rd, opp. Jet TTd, Visakhapatnam, AP 530017</span>
+                        <span>Mvp double Rd,ttd Kalyana mandapam, road, opp. Jet TTd, Visakhapatnam, Andhra Pradesh 530017
+                        </span>
                     </div>
                     <div class="snk-v2-info-item">
                         <i class="bi bi-telephone-fill snk-v2-icon"></i>
@@ -169,7 +170,8 @@
                     <h2 class="snk-v2-card-title text-center">Kakinada Branch</h2>
                     <div class="snk-v2-info-item">
                         <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
-                        <span>Mummidivari St, Surya Rao Peta, Kakinada, AP 533001</span>
+                        <span>Mummidivari Street, Surya Rao Peta, Kakinada, Andra Pradesh, 533001
+                            (Landmark : Apollo Hospital Back side , Kakinada)</span>
                     </div>
                     <div class="snk-v2-info-item">
                         <i class="bi bi-telephone-fill snk-v2-icon"></i>
@@ -195,7 +197,7 @@
                     <h2 class="snk-v2-card-title text-center">Madhurwada Branch</h2>
                     <div class="snk-v2-info-item">
                         <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
-                        <span>Fab India Bldg, PM Palem, Madhurwada, Vizag, AP 530041</span>
+                        <span>Fab India building, 3rd floor ,midhilapuri colony,pm.palem, madhurwada, Visakhapatnam, Andhra Pradesh - 530041</span>
                     </div>
                     <div class="snk-v2-info-item">
                         <i class="bi bi-telephone-fill snk-v2-icon"></i>
@@ -323,6 +325,7 @@
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </html>
 
 <?php include 'footer.php '; ?>
