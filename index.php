@@ -28,7 +28,7 @@
             <div class="reel-wrapper">
                 <div class="reel-box">
                     <video autoplay muted loop playsinline controls>
-                        <source src="./assets/img/v & v saloon edit.mp4" type="video/mp4">
+                        <source src="./assets/img/V & V WSaloon MVP.mp4" type="video/mp4">
                     </video>
                     <div class="reel-label">
                         <p class="city-title index_addres"> <a href="https://maps.app.goo.gl/AnpinvCfKwtgexhU8">Madhuravada</a> </p>

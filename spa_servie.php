@@ -23,7 +23,7 @@
         <div class="col-lg-7 col-md-8 snk-order-content service_hair_section">
 
 
-        <img src="./assets/img/spa_2.png" alt="">
+        <img src="./assets/img/spa_2.png" alt="" class="img-fluid mt-2">
             <header class="spa-hero">
                 <div class="container">
                     <h1>SPA SERVICES</h1>
