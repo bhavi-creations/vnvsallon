@@ -30,7 +30,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-card">
                     <div class="service-img-container">
-                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=500&q=80" class="service-img" alt="Hair Service">
+                        <img src="./assets/img/hair_servie_1.png" class="service-img" alt="Hair Service">
                     </div>
                     <div class="service-content">
                         <h5 class="service-title">Hair Service</h5>
@@ -44,24 +44,24 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-card">
                     <div class="service-img-container">
-                        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=500&q=80" class="service-img" alt="Beauty Service">
+                        <img src="./assets/img/men_grooming_1.png" class="service-img" alt="Beauty Service">
                     </div>
                     <div class="service-content">
-                        <h5 class="service-title">Beauty Service</h5>
-                        <p class="service-text">Advance facial and skin therapies for a natural glowing skin.</p>
-                        <a href="hair_services.php" class="service-btn">READ MORE</a>
+                        <h5 class="service-title">Men’s Grooming</h5>
+                        <p class="service-text">Upgrade your style with expert haircuts, beard shaping, and complete grooming care.</p>
+                        <a href="men_grooming_service.php" class="service-btn">READ MORE</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-card">
                     <div class="service-img-container">
-                        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=500&q=80" class="service-img" alt="Bridal Service">
+                        <img src="./assets/img/bridal_img_1.png" class="service-img" alt="Bridal Service">
                     </div>
                     <div class="service-content">
-                        <h5 class="service-title">Bridal & Groom  Service</h5>
+                        <h5 class="service-title">Bridal  Service</h5>
                         <p class="service-text">Making your wedding day magical with elite makeup and styling.</p>
-                        <a href="hair_services.php" class="service-btn">READ MORE</a>
+                        <a href="bridal_service.php" class="service-btn">READ MORE</a>
                     </div>
                 </div>
             </div>
@@ -71,12 +71,12 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-card">
                     <div class="service-img-container">
-                        <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=500&q=80" class="service-img" alt="Spy Device">
+                        <img src="./assets/img/spa_1.png" class="service-img" alt="Spy Device">
                     </div>
                     <div class="service-content">
                         <h5 class="service-title">Spa Service</h5>
                         <p class="service-text">dvanced hygiene standards and professional therapists for your comfort</p>
-                        <a href="hair_services.php" class="service-btn">READ MORE</a>
+                        <a href="spa_servie.php" class="service-btn">READ MORE</a>
                     </div>
                 </div>
             </div>
@@ -84,12 +84,12 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-card">
                     <div class="service-img-container">
-                        <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=500&q=80" class="service-img" alt="Groom Service">
+                        <img src="./assets/img/hair _extension_1.png" class="service-img" alt="Groom Service">
                     </div>
                     <div class="service-content">
                         <h5 class="service-title">Hair Extensions</h5>
                         <p class="service-text">Safe and hygienic techniques for smooth, clean skin.</p>
-                        <a href="hair_services.php  " class="service-btn">READ MORE</a>
+                        <a href="hair_extenstions.php" class="service-btn">READ MORE</a>
                     </div>
                 </div>
             </div>

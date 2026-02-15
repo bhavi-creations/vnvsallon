@@ -6,6 +6,7 @@
             /* Gold */
             --border-glow: rgba(220, 193, 54, 0.3);
             --soft-black: #1a1a1a;
+            --text-light: #f4f4f4;
 
 
 
@@ -80,7 +81,7 @@
 
 
 
-           @media  (min-width:1200px) {
+        @media (min-width:1200px) {
             .nav-link {
                 margin: 30px;
                 font-size: 25px;
@@ -832,7 +833,8 @@
         .appointment-form .form-control,
         .appointment-form .form-select {
             /* background: transparent; */
-            background: #0d0d0d;;
+            background: #0d0d0d;
+            ;
             border: none;
             border-bottom: 1px solid rgba(212, 175, 55, 0.4);
             border-radius: 0;
@@ -840,7 +842,8 @@
             padding: 12px 5px;
             margin-bottom: 20px;
         }
-        .form-select option { 
+
+        .form-select option {
             background-color: rgb(0, 0, 0);
 
         }
@@ -1260,7 +1263,7 @@
             color: #dcc136 !important;
         }
 
-        .index_addres a{
+        .index_addres a {
             color: #ffffff !important;
         }
 
@@ -1278,15 +1281,15 @@
         /* reviews   */
 
         /* appointment button  */
-        .appointment_button a{
-            background-color:#dcc136;
-             padding: 10px 20px ;
+        .appointment_button a {
+            background-color: #dcc136;
+            padding: 10px 20px;
             border-radius: 10px;
             color: black !important;
             font-weight: 600;
         }
 
-        .appointment_button a:hover{
+        .appointment_button a:hover {
             background-color: black;
             border: 1px solid #dcc136;
             color: #dcc136 !important;
@@ -1296,7 +1299,7 @@
 
         /* kakinada bracnch  */
 
-          /* Unique Container Layout */
+        /* Unique Container Layout */
         .snk-main-wrapper {
             padding: 60px 20px;
         }
@@ -1304,7 +1307,7 @@
         /* --- Left Side: Service Navigation --- */
         .snk-service-navigator {
             position: sticky;
-            top: 20px;
+            top: 150px;
         }
 
         .snk-nav-title {
@@ -1392,7 +1395,7 @@
             border-radius: 20px;
             padding: 30px;
             position: sticky;
-            top: 20px;
+            top: 150px;
         }
 
         .snk-portal-header h3 {
@@ -1459,25 +1462,700 @@
 
 
         /* appointment pages  */
-      
+
 
         /* hair section  */
-        .snk-feature-list li{
+        .snk-feature-list li {
             color: white;
         }
 
-        .hair_secton_heaign{
-            color:gold;
+        .hair_secton_heaign {
+            color: gold;
         }
 
-        .snk-input-field option{
+        .snk-input-field option {
             background-color: BLACK;
         }
 
 
         /* about sectionstylings  */
         @media (max-width:768px) {
-            .sn-featured-img{
+            .sn-featured-img {
                 width: 300px !important;
             }
+        }
+
+
+        /* hair service stylings */
+        /* Hero Section */
+        .hair-hero-section {
+            background-color: var(--sreenika-dark);
+            padding: 80px 0;
+            border-bottom: 2px solid gold;
+            text-align: center;
+        }
+
+        .hair-hero-title {
+            color: gold;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* Section Titles */
+        .hair-section-title {
+            color: gold;
+            margin-bottom: 40px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .hair-section-title::after {
+            content: '';
+            display: block;
+            width: 60%;
+            height: 2px;
+            background: gold;
+            margin: 10px auto;
+        }
+
+        /* Cards and Boxes */
+        .hair-custom-card {
+            background-color: var(--soft-black);
+            border: 1px solid var(--border-glow);
+            border-radius: 12px;
+            padding: 30px;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .hair-custom-card:hover {
+            border-color: gold;
+            box-shadow: 0 0 15px var(--border-glow);
+            transform: translateY(-5px);
+        }
+
+        .hair-option-box {
+            background-color: var(--soft-black);
+            border: 1px solid gold;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            height: 100%;
+        }
+
+        .hair-option-box h4 {
+            color: gold;
+        }
+
+        /* List Styling */
+        .hair-custom-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .hair-custom-list li {
+            margin-bottom: 12px;
+            position: relative;
+            padding-left: 30px;
+            color: white;
+        }
+
+        .hair-custom-list li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: gold;
+        }
+
+        /* Notice Box */
+        .hair-notice-box {
+            background: rgba(220, 193, 54, 0.1);
+            border: 1px dashed gold;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+
+        /* CTA Footer */
+        .hair-cta-footer {
+            background-color: var(--soft-black);
+            padding: 60px 0;
+            border-top: 2px solid gold;
+            text-align: center;
+        }
+
+        .hair-gold-text {
+            color: gold !important;
+        }
+
+
+
+        .service_hair_section {
+            border: 2px dotted #dcc136;
+        }
+
+        .hair-gold-text-section {
+            color: white !important;
+        }
+
+        /* bridal section stylings  */
+        /* Hero Section */
+        .bride-hero {
+            background-color: var(--sreenika-dark);
+            padding: 80px 0;
+            border-bottom: 2px solid var(--sreenika-accentt);
+            text-align: center;
+        }
+
+        .bride-hero h1 {
+            font-weight: 800;
+            color: var(--sreenika-accentt);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Section Titles */
+        .bride-section-title {
+            text-align: center;
+            font-weight: 700;
+            margin: 50px 0 30px;
+            color: var(--sreenika-accentt);
+            text-transform: uppercase;
+        }
+
+        .bride-section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 2px;
+            background: var(--sreenika-accentt);
+            margin: 10px auto;
+        }
+
+        /* Custom Card */
+        .bride-card {
+            background: var(--soft-black);
+            border: 1px solid var(--border-glow);
+            border-radius: 12px;
+            padding: 30px;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .bride-card:hover {
+            border-color: var(--sreenika-accentt);
+            box-shadow: 0 0 15px var(--border-glow);
+            transform: translateY(-5px);
+        }
+
+        .bride-card h3,
+        .bride-card h4 {
+            color: var(--sreenika-accentt);
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        /* Lists */
+        .bride-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .bride-list li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+            color: white;
+        }
+
+        .bride-list li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: var(--sreenika-accentt);
+        }
+
+        /* Highlight Box */
+        .bride-highlight-box {
+            background: rgba(220, 193, 54, 0.05);
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px dashed var(--sreenika-accentt);
+        }
+
+        /* Footer CTA */
+        .bride-footer-cta {
+            background-color: var(--soft-black);
+            color: var(--text-light);
+            padding: 70px 20px;
+            text-align: center;
+            border-top: 2px solid var(--sreenika-accentt);
+        }
+
+        .bride-btn {
+            background: var(--sreenika-accentt);
+            color: var(--sreenika-dark);
+            font-weight: 700;
+            padding: 14px 40px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+
+        .bride-btn:hover {
+            background: #fff;
+            color: var(--sreenika-dark);
+        }
+
+        strong {
+            color: var(--sreenika-accentt);
+        }
+
+        em {
+            color: #aaa;
+        }
+
+        .small {
+            color: white;
+        }
+
+        .full_service_color {
+            color: white;
+        }
+
+        .service_branding {
+            color: var(--sreenika-accentt);
+        }
+
+
+        /* spa service stylings  */
+
+        /* Hero Section */
+        .spa-hero {
+            padding: 80px 0;
+            border-bottom: 2px solid var(--sreenika-accentt);
+            text-align: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1544161515-436cefb65794?auto=format&fit=crop&q=80') center/cover;
+        }
+
+        .spa-hero h1 {
+            font-weight: 800;
+            color: var(--sreenika-accentt);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        /* Section Titles */
+        .spa-section-title {
+            text-align: center;
+            font-weight: 700;
+            margin: 50px 0 30px;
+            color: var(--sreenika-accentt);
+            text-transform: uppercase;
+        }
+
+        .spa-section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 2px;
+            background: var(--sreenika-accentt);
+            margin: 10px auto;
+        }
+
+        /* Spa Cards */
+        .spa-card {
+            background: var(--soft-black);
+            border: 1px solid var(--border-glow);
+            border-radius: 12px;
+            padding: 25px;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .spa-card:hover {
+            border-color: var(--sreenika-accentt);
+            box-shadow: 0 0 15px var(--border-glow);
+            transform: translateY(-5px);
+        }
+
+        .spa-card h3,
+        .spa-card h4 {
+            color: var(--sreenika-accentt);
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        /* Lists */
+        .spa-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .spa-list li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .spa-list li::before {
+            content: '✧';
+            position: absolute;
+            left: 0;
+            color: var(--sreenika-accentt);
+        }
+
+        /* Highlight Box */
+        .spa-highlight-box {
+            background: rgba(220, 193, 54, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px dashed var(--sreenika-accentt);
+            margin-top: 15px;
+        }
+
+        .badge-gold {
+            background-color: var(--sreenika-accentt);
+            color: var(--sreenika-dark);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-right: 5px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: var(--soft-black);
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid var(--sreenika-accentt);
+        }
+
+        strong {
+            color: var(--sreenika-accentt);
+        }
+
+
+
+        .service_bottom_service {
+            margin-top: 200px !important;
+        }
+
+
+        /* hair extensions  */
+
+
+
+        /* Hero Section */
+        .hair_extensions_hero {
+            padding: 80px 0;
+            border-bottom: 2px solid #dcc136;
+            text-align: center;
+            /* background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('https://images.unsplash.com/photo-1522336572468-97b06e8ef143?auto=format&fit=crop&q=80') center/cover; */
+        }
+
+        .hair_extensions_hero h1 {
+            font-weight: 800;
+            color: #dcc136;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        /* Section Titles */
+        .hair_extensions_section_title {
+            text-align: center;
+            font-weight: 700;
+            margin: 50px 0 30px;
+            color: #dcc136;
+            text-transform: uppercase;
+        }
+
+        .hair_extensions_section_title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 2px;
+            background: #dcc136;
+            margin: 10px auto;
+        }
+
+        /* Cards */
+        .hair_extensions_card {
+            background: #1a1a1a;
+            border: 1px solid rgba(220, 193, 54, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .hair_extensions_card:hover {
+            border-color: #dcc136;
+            box-shadow: 0 0 15px rgba(220, 193, 54, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .hair_extensions_card h3,
+        .hair_extensions_card h4 {
+            color: #dcc136;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        /* Lists */
+        .hair_extensions_list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .hair_extensions_list li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .hair_extensions_list li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: #dcc136;
+        }
+
+        /* Highlight Box */
+        .hair_extensions_highlight {
+            background: rgba(220, 193, 54, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px dashed #dcc136;
+            margin: 20px 0;
+        }
+
+        /* Buttons */
+        .hair_extensions_btn {
+            background: #dcc136;
+            color: #000000;
+            font-weight: 700;
+            padding: 12px 35px;
+            border-radius: 5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .hair_extensions_btn:hover {
+            background: #fff;
+            color: #000000;
+        }
+
+        /* mens grooming stylings  */
+        /* Hero Section */
+        .men_groom_hero {
+            padding: 80px 0;
+            border-bottom: 2px solid #dcc136;
+            text-align: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1503913300254-3d541824330b?auto=format&fit=crop&q=80') center/cover;
+        }
+
+        .men_groom_hero h1 {
+            font-weight: 800;
+            color: #dcc136;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        /* Section Titles */
+        .men_groom_section_title {
+            text-align: center;
+            font-weight: 700;
+            margin: 50px 0 30px;
+            color: #dcc136;
+            text-transform: uppercase;
+        }
+
+        .men_groom_section_title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 2px;
+            background: #dcc136;
+            margin: 10px auto;
+        }
+
+        /* Cards */
+        .men_groom_card {
+            background: rgba(0, 0, 0, 0.532);
+            border: 1px solid gold;
+            border-radius: 12px;
+            padding: 25px;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .men_groom_card:hover {
+            border-color: #dcc136;
+            box-shadow: 0 0 15px gold;
+            transform: translateY(-5px);
+        }
+
+        .men_groom_card h3,
+        .men_groom_card h4 {
+            color: #dcc136;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        /* Lists */
+        .men_groom_list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .men_groom_list li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .men_groom_list li::before {
+            content: '⬥';
+            position: absolute;
+            left: 0;
+            color: #dcc136;
+        }
+
+        /* Highlight Box */
+        .men_groom_highlight {
+            background: rgba(220, 193, 54, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px dashed #dcc136;
+            margin: 20px 0;
+        }
+
+        /* Buttons */
+        .men_groom_btn {
+            background: #dcc136;
+            color: #000000;
+            font-weight: 700;
+            padding: 12px 35px;
+            border-radius: 5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .men_groom_btn:hover {
+            background: #fff;
+            color: #000000;
+        }
+
+
+        /* service section stylings  */
+        /* Hero Section */
+        .hair_srv_hero {
+            padding: 80px 0;
+            border-bottom: 2px solid #dcc136;
+            text-align: center;
+            /* background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('https://images.unsplash.com/photo-1595475207225-428b62bda831?auto=format&fit=crop&q=80') center/cover; */
+        }
+
+        .hair_srv_hero h1 {
+            font-weight: 800;
+            color: #dcc136;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        /* Section Titles */
+        .hair_srv_section_title {
+            text-align: center;
+            font-weight: 700;
+            margin: 50px 0 30px;
+            color: #dcc136;
+            text-transform: uppercase;
+        }
+
+        .hair_srv_section_title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 2px;
+            background: #dcc136;
+            margin: 10px auto;
+        }
+
+        /* Cards */
+        .hair_srv_card {
+            background: #1a1a1a;
+            border: 1px solid rgba(220, 193, 54, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .hair_srv_card:hover {
+            border-color: #dcc136;
+            box-shadow: 0 0 15px rgba(220, 193, 54, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .hair_srv_card h3,
+        .hair_srv_card h4 {
+            color: #dcc136;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        /* Lists */
+        .hair_srv_list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .hair_srv_list li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .hair_srv_list li::before {
+            content: '✂';
+            position: absolute;
+            left: 0;
+            color: #dcc136;
+        }
+
+        /* Highlight Box */
+        .hair_srv_highlight {
+            background: rgba(220, 193, 54, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px dashed #dcc136;
+            margin: 20px 0;
+        }
+
+        /* Buttons */
+        .hair_srv_btn {
+            background: #dcc136;
+            color: #000000;
+            font-weight: 700;
+            padding: 12px 35px;
+            border-radius: 5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .hair_srv_btn:hover {
+            background: #fff;
+            color: #000000;
         }

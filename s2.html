@@ -1,195 +1,340 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="te">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V&V Premium Reviews</title>
+    <title>Hair Services - V&V Family Salon</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-    
     <style>
+        :root {
+            --hair_srv_dark: #000000;
+            --hair_srv_gold: #dcc136;
+            --hair_srv_border: rgba(220, 193, 54, 0.3);
+            --hair_srv_soft_black: #1a1a1a;
+            --hair_srv_light: #f4f4f4;
+        }
+
         body {
-            background-color: #000; /* Deep Black Background */
-            font-family: 'Poppins', sans-serif;
-            color: #fff;
-        }
-
-        .section-padding { padding: 80px 0; }
-
-        .section-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
-            color: #d4af37; /* Gold Color */
-            margin-bottom: 10px;
-        }
-
-        .section-subtitle {
-            color: #888;
-            margin-bottom: 50px;
-            letter-spacing: 1px;
-        }
-
-        /* Card Hovering Effects */
-        .custom-card {
-            background-color: #111;
-            border: 1px solid #222;
-            border-radius: 0; /* Square look like the image */
-            transition: all 0.4s ease-in-out;
-            height: 100%;
-            overflow: hidden;
-        }
-
-        .custom-card:hover {
-            transform: translateY(-15px); /* Moves up on hover */
-            border-color: #d4af37;
-            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
-        }
-
-        .card-img-container {
-            overflow: hidden;
-            position: relative;
-        }
-
-        .custom-card img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-            transition: transform 0.6s ease;
-        }
-
-        .custom-card:hover img {
-            transform: scale(1.1); /* Image zooms on hover */
-        }
-
-        .card-body { padding: 25px; }
-
-        .card-date {
-            font-size: 0.8rem;
-            color: #d4af37;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-            display: block;
-        }
-
-        .card-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            color: #fff;
-            margin-bottom: 15px;
-            line-height: 1.4;
-        }
-
-        .card-text {
-            color: #bbb;
-            font-size: 0.9rem;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            background-color: #000000;
+            color: #f4f4f4;
             line-height: 1.6;
         }
 
-        .read-more {
-            color: #d4af37;
+        /* Hero Section */
+        .hair_srv_hero {
+            padding: 80px 0;
+            border-bottom: 2px solid #dcc136;
+            text-align: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('https://images.unsplash.com/photo-1595475207225-428b62bda831?auto=format&fit=crop&q=80') center/cover;
+        }
+
+        .hair_srv_hero h1 {
+            font-weight: 800;
+            color: #dcc136;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        /* Section Titles */
+        .hair_srv_section_title {
+            text-align: center;
+            font-weight: 700;
+            margin: 50px 0 30px;
+            color: #dcc136;
+            text-transform: uppercase;
+        }
+
+        .hair_srv_section_title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 2px;
+            background: #dcc136;
+            margin: 10px auto;
+        }
+
+        /* Cards */
+        .hair_srv_card {
+            background: #1a1a1a;
+            border: 1px solid rgba(220, 193, 54, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .hair_srv_card:hover {
+            border-color: #dcc136;
+            box-shadow: 0 0 15px rgba(220, 193, 54, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .hair_srv_card h3,
+        .hair_srv_card h4 {
+            color: #dcc136;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        /* Lists */
+        .hair_srv_list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .hair_srv_list li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .hair_srv_list li::before {
+            content: '✂';
+            position: absolute;
+            left: 0;
+            color: #dcc136;
+        }
+
+        /* Highlight Box */
+        .hair_srv_highlight {
+            background: rgba(220, 193, 54, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px dashed #dcc136;
+            margin: 20px 0;
+        }
+
+        /* Buttons */
+        .hair_srv_btn {
+            background: #dcc136;
+            color: #000000;
+            font-weight: 700;
+            padding: 12px 35px;
+            border-radius: 5px;
             text-decoration: none;
-            font-weight: 500;
-            font-size: 0.9rem;
+            text-transform: uppercase;
             display: inline-block;
-            margin-top: 15px;
-            border-bottom: 1px solid transparent;
             transition: 0.3s;
         }
 
-        .read-more:hover {
-            border-bottom: 1px solid #d4af37;
-            letter-spacing: 1px;
+        .hair_srv_btn:hover {
+            background: #fff;
+            color: #000000;
         }
 
-        .view-all-btn {
-            border: 1px solid #d4af37;
-            color: #d4af37;
-            padding: 10px 30px;
-            border-radius: 0;
-            transition: 0.4s;
-            background: transparent;
-            margin-top: 40px;
+        footer {
+            background-color:  #1a1a1a;
+            padding: 60px 0;
+            text-align: center;
+            border-top: 2px solid #dcc136;
         }
 
-        .view-all-btn:hover {
-            background-color: #d4af37;
-            color: #000;
+        strong {
+            color: #dcc136;
         }
     </style>
 </head>
+
 <body>
 
-<section class="section-padding">
-    <div class="container">
-        <div class="row mb-4">
-            <div class="col-md-8">
-                <p class="mb-0 text-uppercase small text-secondary">Reviews & Blogs</p>
-                <h2 class="section-title">Scented stories for every mood</h2>
+    <header class="hair_srv_hero">
+        <div class="container">
+            <h1>Hair Services</h1>
+            <p class="lead mt-4 mx-auto" style="max-width: 900px;">
+                Get the look you want without damaging the health of your hair. We follow a <strong>consultation-first
+                    approach</strong> for safe, customized results.
+            </p>
+        </div>
+    </header>
+
+    <div class="container py-5">
+
+        <section>
+            <h2 class="hair_srv_section_title">Hair Consultation</h2>
+            <div class="hair_srv_card">
+                <h4>Start Here (3–7 Minutes)</h4>
+                <p>Before we begin, we take a few minutes to understand your requirements:</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="hair_srv_list">
+                            <li><strong>Your goal:</strong> length, volume, shine, color, manageability</li>
+                            <li><strong>Current issues:</strong> hair fall, dryness, dandruff, frizz</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="hair_srv_list">
+                            <li><strong>History:</strong> color, smoothening, bleaching, heat styling</li>
+                            <li><strong>Daily routine:</strong> travel, workouts, styling habits</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="hair_srv_section_title">Haircut & Styling</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="hair_srv_card">
+                        <h3>Women’s Haircuts</h3>
+                        <p class="small">From clean trims to total transformations.</p>
+                        <ul class="hair_srv_list small">
+                            <li>Layer, step, and feather cuts</li>
+                            <li>Bob, lob, and face-framing</li>
+                            <li>Split-end trimming</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hair_srv_card">
+                        <h3>Men’s Haircuts</h3>
+                        <p class="small">Precision cuts that look sharp for weeks.</p>
+                        <ul class="hair_srv_list small">
+                            <li>Classic cuts, fades, and tapers</li>
+                            <li>Executive professional styles</li>
+                            <li>Styling guidance by face shape</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hair_srv_card">
+                        <h3>Kids’ Haircuts</h3>
+                        <p class="small">Comfort-first, quick, and neat.</p>
+                        <ul class="hair_srv_list small">
+                            <li>Age-appropriate styles</li>
+                            <li>Gentle handling</li>
+                            <li>Easy maintenance recommendations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="hair_srv_section_title">Blowdry & Styling</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="hair_srv_card">
+                        <h3>Blowdry & Iron Styling</h3>
+                        <ul class="hair_srv_list">
+                            <li>Basic blowdry (smooth finish)</li>
+                            <li>Volume blowdry (bounce + lift)</li>
+                            <li>Iron curls / waves / straight finish</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="hair_srv_card">
+                        <h3>Occasion Styling</h3>
+                        <ul class="hair_srv_list">
+                            <li>Party styling (soft/bold glam)</li>
+                            <li>Traditional event styling</li>
+                            <li>Weddings & corporate events</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="hair_srv_section_title">Hair Spa & Repair</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="hair_srv_card">
+                        <h3>Scalp Refresh</h3>
+                        <p>Resets the scalp instantly.</p>
+                        <ul class="hair_srv_list small">
+                            <li>Deep cleanse wash (oil/sweat)</li>
+                            <li>Conditioning wash (dryness)</li>
+                            <li>Scalp refresh massage</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="hair_srv_card">
+                        <h3>Hair Repair Rituals</h3>
+                        <p>Custom treatments for strengthening.</p>
+                        <ul class="hair_srv_list small">
+                            <li>Damage reversal</li>
+                            <li>Moisture boost</li>
+                            <li>Frizz reduction</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="hair_srv_section_title">Hair Color</h2>
+
+            <div class="row g-4 mt-3">
+                <div class="col-md-4">
+                    <div class="hair_srv_card">
+                        <h4>Root Touch-Up</h4>
+                        <p class="small">Natural coverage that matches your base tone.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hair_srv_card">
+                        <h4>Global Color</h4>
+                        <p class="small">Full-head color for uniform fresh tone.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hair_srv_card">
+                        <h4>Highlights</h4>
+                        <p class="small">Partial or full for dimension and glow.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="hair_srv_section_title">Texture & Manageability</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="hair_srv_card">
+                        <h3>Smoothening / Keratin</h3>
+                        <p class="small">Frizz control for easier styling.</p>
+                        <ul class="hair_srv_list small">
+                            <li>Natural-looking smooth finish</li>
+                            <li>Reduced puffiness</li>
+                            <li>After-care guidance provided</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="hair_srv_card">
+                        <h3>Texture Change</h3>
+                        <p class="small">Volume, curls, or shape change.</p>
+                        <ul class="hair_srv_list small">
+                            <li>Soft curls / waves</li>
+                            <li>Volume enhancement</li>
+                            <li>Deep consultation required</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="hair_srv_highlight text-center mt-5">
+            <h4>Common Mistakes We Help You Avoid</h4>
+            <p class="mb-0">Wrong color choice • Excessive heat damage • Unrealistic smoothening results</p>
         </div>
 
-        <div class="row g-4">
-            <div class="col-lg-3 col-md-6">
-                <div class="custom-card">
-                    <div class="card-img-container">
-                        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=500" alt="Review 1">
-                    </div>
-                    <div class="card-body">
-                        <span class="card-date">February 22, 2026 • Ethan Brooks</span>
-                        <h4 class="card-title">Daily skincare routine tips</h4>
-                        <p class="card-text">Expert advice for daily skincare routines to maintain healthy, glowing skin throughout the day...</p>
-                        <a href="#" class="read-more">Read more →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="custom-card">
-                    <div class="card-img-container">
-                        <img src="https://images.unsplash.com/photo-1556229167-7313009bc877?auto=format&fit=crop&w=500" alt="Review 2">
-                    </div>
-                    <div class="card-body">
-                        <span class="card-date">March 15, 2026 • Lily Thompson</span>
-                        <h4 class="card-title">Achieving skin radiance naturally</h4>
-                        <p class="card-text">Natural methods to achieve a radiant complexion without harsh chemicals or expensive products...</p>
-                        <a href="#" class="read-more">Read more →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="custom-card">
-                    <div class="card-img-container">
-                        <img src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=500" alt="Review 3">
-                    </div>
-                    <div class="card-body">
-                        <span class="card-date">April 10, 2026 • Oliver Davis</span>
-                        <h4 class="card-title">Natural ingredients for skincare</h4>
-                        <p class="card-text">Explore the benefits of natural ingredients in your skincare products for better long-term results...</p>
-                        <a href="#" class="read-more">Read more →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="custom-card mt-lg-5"> <div class="card-img-container">
-                        <img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=500" alt="Review 4">
-                    </div>
-                    <div class="card-body">
-                        <span class="card-date">June 5, 2026 • Ava Bennett</span>
-                        <h4 class="card-title">Essential oils for skincare</h4>
-                        <p class="card-text">Explore the use of essential oils for various benefits and how to apply them safely at home...</p>
-                        <a href="#" class="read-more">Read more →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="text-start mt-4">
-            <button class="btn view-all-btn">View more articles →</button>
-        </div>
     </div>
-</section>
 
+    <footer>
+        <div class="container">
+            <h2 style="color:#dcc136">Ready for a Hair Transformation?</h2>
+            <p>Our goal is to ensure you feel confident — not just on day one, but on day twenty.</p>
+            <a href="#" class="hair_srv_btn mt-4">Book Your Appointment</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
