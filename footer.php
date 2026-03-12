@@ -77,7 +77,8 @@
                     <a href="index.php" class="footer-link detsils_section">Home</a>
                     <a href="about.php" class="footer-link detsils_section">About</a>
                     <a href="service.php" class="footer-link detsils_section">Products</a>
-                    <a href="blog.php" class="footer-link detsils_section">Blog</a>
+                    <a href="gallery.php" class="footer-link detsils_section">Gallery</a>
+                    <a href="blogs.php" class="footer-link detsils_section">Blog</a>
                     <!-- <a href="contact.php" class="footer-link detsils_section">Contact</a> -->
                     <a href="Appointment.php" class="footer-link detsils_section">Appointment</a>
                 </div>

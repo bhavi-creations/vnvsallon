@@ -57,7 +57,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="sn-badge-label">ABOUT US</div>
-                <h1 class="sn-hero-title">We Have 20 + Years Of Experience</h1>
+                <h1 class="sn-hero-title">We Have 20+ Years Of Experience</h1>
                 <p class="sn-hero-desc">
                     V&V Family Salon is a fast-growing, system-driven salon & spa chain founded by Mr. Vishnu
                     Vadapalli, one of South India’s most respected celebrity grooming professionals.
@@ -82,7 +82,7 @@
                         alt="Professional working" class="sn-featured-img d-block d-md-none"  style="width: 350px; height: auto;" >
 
                     <div class="sn-stat-card sn-stat-pos-1">
-                        <div class="sn-stat-val">13+</div>
+                        <div class="sn-stat-val">20+</div>
                         <div class="sn-stat-tag">Years Experience</div>
                     </div>
 
@@ -158,7 +158,7 @@
             </div>
 
             <div class="service-item-box">
-                <a href="hair_services.php" class="service-info-card service-pos-top shadow">
+                <a href="bridal_service.php" class="service-info-card service-pos-top shadow">
                     <span class="service-name-label">💄 Bridal Service</span>
                     <span class="service-desc-text">Elegant makeup and hair for your special wedding day.</span>
                 </a>
@@ -166,7 +166,7 @@
             </div>
 
             <div class="service-item-box">
-                <a href="hair_services.php" class="service-info-card service-pos-bottom shadow">
+                <a href="men_grooming_service.php" class="service-info-card service-pos-bottom shadow">
                     <span class="service-name-label">🤵 Groom Service</span>
                     <span class="service-desc-text">Exclusive grooming and skin care for the modern man.</span>
                 </a>
@@ -174,7 +174,7 @@
             </div>
 
             <div class="service-item-box">
-                <a href="#" class="service-info-card service-pos-top shadow">
+                <a href="spa_servie.php" class="service-info-card service-pos-top shadow">
                     <span class="service-name-label">📷Spa Service</span>
                     <span class="service-desc-text">dvanced hygiene standards and professional therapists for your comfort</span>
                 </a>
@@ -182,7 +182,7 @@
             </div>
 
             <div class="service-item-box">
-                <a href="" class="service-info-card service-pos-bottom shadow">
+                <a href="hair_extenstions.php" class="service-info-card service-pos-bottom shadow">
                     <span class="service-name-label">💇 Hair Extensions</span>
                     <span class="service-desc-text">Advanced and safe hair restoration treatments.</span>
                 </a>

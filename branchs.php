@@ -2,20 +2,21 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>V&V Family Salon - Kakinada Flagship Branch</title>
-    
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <style>
         :root {
             --sreenika-dark: #000000;
@@ -23,26 +24,26 @@
             --border-glow: rgba(220, 193, 54, 0.3);
             --soft-black: #1a1a1a;
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Poppins', sans-serif;
             background-color: #0a0a0a;
             color: #ffffff;
             overflow-x: hidden;
         }
-        
+
         .section-main {
             background: linear-gradient(135deg, var(--sreenika-dark) 0%, var(--soft-black) 100%);
             position: relative;
             overflow: hidden;
         }
-        
+
         .section-main::before {
             content: '';
             position: absolute;
@@ -54,19 +55,28 @@
             animation: pulse 8s ease-in-out infinite;
             pointer-events: none;
         }
-        
+
         @keyframes pulse {
-            0%, 100% { opacity: 0.3; transform: scale(1); }
-            50% { opacity: 0.6; transform: scale(1.1); }
+
+            0%,
+            100% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.6;
+                transform: scale(1.1);
+            }
         }
-        
+
         /* Hero Section */
         .hero-section {
             padding: 100px 0;
             position: relative;
             z-index: 1;
         }
-        
+
         .hero-title {
             font-family: 'Playfair Display', serif;
             font-size: 3.5rem;
@@ -77,7 +87,7 @@
             margin-bottom: 20px;
             text-shadow: 0 0 30px var(--border-glow);
         }
-        
+
         .hero-subtitle {
             font-size: 1.3rem;
             color: #e0e0e0;
@@ -85,7 +95,7 @@
             margin-bottom: 30px;
             line-height: 1.8;
         }
-        
+
         .flagship-badge {
             display: inline-block;
             background: linear-gradient(135deg, var(--sreenika-accentt), #b89a2e);
@@ -99,14 +109,14 @@
             box-shadow: 0 5px 20px var(--border-glow);
             margin-bottom: 40px;
         }
-        
+
         /* Why Choose Section */
         .why-choose-section {
             padding: 80px 0;
             position: relative;
             z-index: 1;
         }
-        
+
         .section-heading {
             font-family: 'Playfair Display', serif;
             font-size: 2.8rem;
@@ -118,7 +128,7 @@
             display: inline-block;
             width: 100%;
         }
-        
+
         .section-heading::after {
             content: '';
             position: absolute;
@@ -129,7 +139,7 @@
             height: 3px;
             background: linear-gradient(90deg, transparent, var(--sreenika-accentt), transparent);
         }
-        
+
         .feature-card {
             background: linear-gradient(135deg, rgba(220, 193, 54, 0.05), rgba(26, 26, 26, 0.8));
             border: 1px solid var(--border-glow);
@@ -141,7 +151,7 @@
             position: relative;
             overflow: hidden;
         }
-        
+
         .feature-card::before {
             content: '';
             position: absolute;
@@ -153,17 +163,17 @@
             opacity: 0;
             transition: opacity 0.4s ease;
         }
-        
+
         .feature-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 40px var(--border-glow);
             border-color: var(--sreenika-accentt);
         }
-        
+
         .feature-card:hover::before {
             opacity: 1;
         }
-        
+
         .feature-icon {
             font-size: 3rem;
             color: var(--sreenika-accentt);
@@ -171,7 +181,7 @@
             position: relative;
             z-index: 1;
         }
-        
+
         .feature-title {
             font-family: 'Playfair Display', serif;
             font-size: 1.5rem;
@@ -181,7 +191,7 @@
             position: relative;
             z-index: 1;
         }
-        
+
         .feature-text {
             color: #d0d0d0;
             font-size: 0.95rem;
@@ -189,7 +199,7 @@
             position: relative;
             z-index: 1;
         }
-        
+
         /* Services Section */
         .services-section {
             padding: 80px 0;
@@ -197,7 +207,7 @@
             position: relative;
             z-index: 1;
         }
-        
+
         .service-card {
             background: rgba(0, 0, 0, 0.6);
             border: 2px solid var(--border-glow);
@@ -206,25 +216,25 @@
             margin-bottom: 30px;
             transition: all 0.3s ease;
         }
-        
+
         .service-card:hover {
             border-color: var(--sreenika-accentt);
             box-shadow: 0 10px 30px var(--border-glow);
         }
-        
+
         .service-header {
             display: flex;
             align-items: center;
             margin-bottom: 25px;
         }
-        
+
         .service-icon {
             font-size: 2.5rem;
             color: var(--sreenika-accentt);
             margin-right: 20px;
             min-width: 60px;
         }
-        
+
         .service-title {
             font-family: 'Playfair Display', serif;
             font-size: 1.8rem;
@@ -232,32 +242,32 @@
             color: var(--sreenika-accentt);
             margin: 0;
         }
-        
+
         .service-subtitle {
             color: #b0b0b0;
             font-size: 0.9rem;
             font-style: italic;
             margin-top: 5px;
         }
-        
+
         .service-description {
             color: #d0d0d0;
             margin-bottom: 20px;
             line-height: 1.8;
         }
-        
+
         .service-list {
             list-style: none;
             padding: 0;
         }
-        
+
         .service-list li {
             padding: 8px 0 8px 30px;
             position: relative;
             color: #c0c0c0;
             font-size: 0.95rem;
         }
-        
+
         .service-list li::before {
             content: '\f00c';
             font-family: 'Font Awesome 6 Free';
@@ -266,21 +276,21 @@
             left: 0;
             color: var(--sreenika-accentt);
         }
-        
+
         /* Areas Section */
         .areas-section {
             padding: 80px 0;
             position: relative;
             z-index: 1;
         }
-        
+
         .areas-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 15px;
             margin-top: 40px;
         }
-        
+
         .area-tag {
             background: linear-gradient(135deg, rgba(220, 193, 54, 0.1), rgba(26, 26, 26, 0.8));
             border: 1px solid var(--border-glow);
@@ -291,14 +301,14 @@
             transition: all 0.3s ease;
             font-size: 0.95rem;
         }
-        
+
         .area-tag:hover {
             background: var(--sreenika-accentt);
             color: var(--sreenika-dark);
             transform: scale(1.05);
             font-weight: 600;
         }
-        
+
         /* Experience Section */
         .experience-section {
             padding: 80px 0;
@@ -306,7 +316,7 @@
             position: relative;
             z-index: 1;
         }
-        
+
         .experience-box {
             background: rgba(220, 193, 54, 0.05);
             border: 2px solid var(--sreenika-accentt);
@@ -315,13 +325,13 @@
             text-align: center;
             box-shadow: 0 0 50px var(--border-glow);
         }
-        
+
         .experience-list {
             list-style: none;
             padding: 0;
             margin-top: 30px;
         }
-        
+
         .experience-list li {
             font-size: 1.2rem;
             color: #e0e0e0;
@@ -330,11 +340,11 @@
             position: relative;
             padding-left: 40px;
         }
-        
+
         .experience-list li:last-child {
             border-bottom: none;
         }
-        
+
         .experience-list li::before {
             content: '\f005';
             font-family: 'Font Awesome 6 Free';
@@ -344,14 +354,14 @@
             color: var(--sreenika-accentt);
             font-size: 1rem;
         }
-        
+
         /* Who Visits Section */
         .who-visits-section {
             padding: 80px 0;
             position: relative;
             z-index: 1;
         }
-        
+
         .visitor-card {
             background: linear-gradient(135deg, rgba(220, 193, 54, 0.08), rgba(0, 0, 0, 0.6));
             border: 1px solid var(--border-glow);
@@ -362,25 +372,25 @@
             align-items: center;
             transition: all 0.3s ease;
         }
-        
+
         .visitor-card:hover {
             transform: translateX(10px);
             border-color: var(--sreenika-accentt);
         }
-        
+
         .visitor-icon {
             font-size: 2rem;
             color: var(--sreenika-accentt);
             margin-right: 20px;
             min-width: 50px;
         }
-        
+
         .visitor-text {
             color: #d0d0d0;
             font-size: 1rem;
             margin: 0;
         }
-        
+
         /* CTA Section */
         .cta-section {
             padding: 100px 0;
@@ -389,20 +399,20 @@
             position: relative;
             z-index: 1;
         }
-        
+
         .cta-title {
             font-family: 'Playfair Display', serif;
             font-size: 2.5rem;
             color: var(--sreenika-accentt);
             margin-bottom: 20px;
         }
-        
+
         .cta-text {
             font-size: 1.2rem;
             color: #d0d0d0;
             margin-bottom: 40px;
         }
-        
+
         .cta-button {
             display: inline-block;
             background: linear-gradient(135deg, var(--sreenika-accentt), #b89a2e);
@@ -417,40 +427,241 @@
             transition: all 0.3s ease;
             box-shadow: 0 10px 30px var(--border-glow);
         }
-        
+
         .cta-button:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 40px var(--border-glow);
             color: var(--sreenika-dark);
         }
-        
+
         /* Responsive */
         @media (max-width: 768px) {
             .hero-title {
                 font-size: 2.2rem;
             }
-            
+
             .hero-subtitle {
                 font-size: 1rem;
             }
-            
+
             .section-heading {
                 font-size: 2rem;
             }
-            
+
             .service-title {
                 font-size: 1.4rem;
             }
-            
+
             .areas-grid {
                 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             }
         }
+
+
+        /* brands   */
+        /* BLACK GOLD BRANCH SECTION */
+
+        .snk-v2-branch-card {
+            background: #000000;
+            border: 1px solid #d4af37;
+            border-radius: 15px;
+            color: #fff;
+            transition: 0.4s;
+            cursor: pointer;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .snk-v2-branch-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: #d4af37;
+            transition: .4s;
+        }
+
+        .snk-v2-branch-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.35);
+            border-color: #d4af37;
+        }
+
+        /* ACTIVE CARD */
+
+        .snk-v2-branch-card.active {
+            background: #000;
+            border: 2px solid #d4af37;
+            box-shadow: 0 10px 35px rgba(212, 175, 55, 0.45);
+        }
+
+        /* CARD TITLE */
+
+        .snk-v2-card-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #d4af37;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        /* INFO ITEMS */
+
+        .snk-v2-info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 12px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        /* ICONS */
+
+        .snk-v2-icon {
+            color: #d4af37;
+            font-size: 16px;
+            margin-top: 3px;
+        }
+
+        /* TEXT */
+
+        .snk-v2-info-item span {
+            color: #ddd;
+        }
+
+        /* HOVER EFFECT */
+
+        .snk-v2-branch-card:hover .snk-v2-icon {
+            color: #fff;
+        }
+
+        .snk-v2-branch-card:hover .snk-v2-card-title {
+            color: #fff;
+        }
+
+        /* MOBILE RESPONSIVE */
+
+        @media(max-width:768px) {
+
+            .snk-v2-card-title {
+                font-size: 20px;
+            }
+
+            .snk-v2-info-item {
+                font-size: 13px;
+            }
+
+        }
     </style>
 </head>
+
 <body>
+
+    <div class="container">
+  
+          
+                <div class="row align-items-center mt-5">
+                    <div class="col-lg-12 text-center">
+                        <div class="flagship-badge">
+                            <i class="fas fa-crown"></i> Our Branches
+                        </div>
+                       
+                    </div>
+                </div>
+          
+    
+
+        <div class="row g-4 mb-5">
+            <div class="col-md-4">
+                <a href=""></a>
+                <div class="snk-v2-branch-card p-4 active" onclick="selectBranch('MVP Branch', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.000000000000!2d83.3333333!3d17.7333333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943376673574b%3A0xf639a0499e71000!2sMVP%20Colony!5e0!3m2!1sen!2sin!4v1700000000000')">
+                    <h2 class="snk-v2-card-title text-center">MVP Branch</h2>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
+                        <span>Mvp double Rd,ttd Kalyana mandapam, road, opp. Jet TTd, Visakhapatnam, Andhra Pradesh 530017
+                        </span>
+                    </div>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-telephone-fill snk-v2-icon"></i>
+                        <span>+91-8125801107</span>
+                    </div>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-whatsapp snk-v2-icon"></i>
+                        <span>+91-8125801107</span>
+                    </div>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-envelope-fill snk-v2-icon"></i>
+                        <span>vandvsalonvizag@gmail.com</span>
+                    </div>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-clock-fill snk-v2-icon"></i>
+                        <span>9am - 9pm</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="snk-v2-branch-card p-4" onclick="selectBranch('V&V SALON & SPA (Kakinada)', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3816.000000000000!2d82.2333333!3d16.9333333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a38284200000000%3A0x0!2sKakinada!5e0!3m2!1sen!2sin!4v1700000000000')">
+                    <h2 class="snk-v2-card-title text-center">Kakinada Branch</h2>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
+                        <span>Mummidivari Street, Surya Rao Peta, Kakinada, Andra Pradesh, 533001
+                            (Landmark : Apollo Hospital Back side , Kakinada)</span>
+                    </div>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-telephone-fill snk-v2-icon"></i>
+                        <span>+91-9000021107</span>
+                    </div>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-whatsapp snk-v2-icon"></i>
+                        <span>+91-9000021107</span>
+                    </div>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-envelope-fill snk-v2-icon"></i>
+                        <span>vnvkakinada@gmail.com</span>
+                    </div>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-clock-fill snk-v2-icon"></i>
+                        <span>9am - 9pm</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="snk-v2-branch-card p-4" onclick="selectBranch('Madhurwada Branch', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.000000000000!2d83.3500000!3d17.8000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39500000000000%3A0x0!2sMadhurwada!5e0!3m2!1sen!2sin!4v1700000000000')">
+                    <h2 class="snk-v2-card-title text-center">Madhurwada Branch</h2>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
+                        <span>Fab India building, 3rd floor ,midhilapuri colony,pm.palem, madhurwada, Visakhapatnam, Andhra Pradesh - 530041</span>
+                    </div>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-telephone-fill snk-v2-icon"></i>
+                        <span>+91-9011186999</span>
+                    </div>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-whatsapp snk-v2-icon"></i>
+                        <span>+91-9011186999</span>
+                    </div>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-envelope-fill snk-v2-icon"></i>
+                        <span>vandvsalonmadhurwada@gmail.com</span>
+                    </div>
+                    <div class="snk-v2-info-item">
+                        <i class="bi bi-clock-fill snk-v2-icon"></i>
+                        <span>9am - 9pm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="section-main">
-        
+
         <!-- Hero Section -->
         <section class="hero-section">
             <div class="container">
@@ -485,7 +696,7 @@
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-4 col-md-6">
                         <div class="feature-card">
                             <div class="feature-icon">
@@ -497,7 +708,7 @@
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-4 col-md-6">
                         <div class="feature-card">
                             <div class="feature-icon">
@@ -509,7 +720,7 @@
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-12">
                         <div class="feature-card">
                             <div class="feature-icon">
@@ -529,7 +740,7 @@
         <section class="services-section">
             <div class="container">
                 <h2 class="section-heading">What You Can Experience at V&V</h2>
-                
+
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="service-card">
@@ -554,7 +765,7 @@
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-12">
                         <div class="service-card">
                             <div class="service-header">
@@ -578,7 +789,7 @@
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-12">
                         <div class="service-card">
                             <div class="service-header">
@@ -602,7 +813,7 @@
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-12">
                         <div class="service-card">
                             <div class="service-header">
@@ -745,8 +956,9 @@
 
     </div>
 
-    
+
 </body>
+
 </html>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <?php include "footer.php"; ?>

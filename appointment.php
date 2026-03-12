@@ -21,7 +21,7 @@
             background-color: #121212;
             color: #ffffff;
             font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            padding-bottom: 60px;
+            /* padding-bottom: 60px; */
         }
 
         /* --- Branch Cards Styles --- */

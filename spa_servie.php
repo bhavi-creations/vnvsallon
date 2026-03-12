@@ -167,8 +167,9 @@
 
                 <div class="row mt-5">
                     <div class="col-md-6">
-                        <h3 class="text-gold mb-4" style="color:var(--sreenika-accentt)">Popular Combo Experiences</h3>
+                        <!-- <h3 class="text-gold mb-4" style="color:var(--sreenika-accentt)"></h3> -->
                         <div class="spa-card">
+                            <h3>Popular Combo Experiences</h3>
                             <ul class="spa-list">
                                 <li class="full_service_color">Spa therapy + Hair wash & styling</li>
                                 <li class="full_service_color">Spa therapy + Skin cleanup / glow facial</li>
@@ -178,8 +179,9 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <h3 class="text-gold mb-4" style="color:var(--sreenika-accentt)">Our Standards</h3>
-                        <div class="spa-card">
+                        <!-- <h3 class="text-gold mb-4" style="color:var(--sreenika-accentt)">Our Standards</h3> -->
+                        <div class="spa-card mobilde_device_our_standings">
+                            <h3>Our Standards</h3>
                             <ul class="spa-list">
                                 <li class="full_service_color">Clean rooms & fresh setup every session</li>
                                 <li class="full_service_color">Trained professional therapists</li>
@@ -190,7 +192,7 @@
                     </div>
                 </div>
 
-                <div class="spa-highlight-box mt-5 text-center p-4 service_bottom_service">
+                <div class="spa-highlight-box mt-5 text-center p-4 service_bottom_service "  >
                     <h4 class="full_service_color">Who Spa Services Are Perfect For</h4>
                     <div class="d-flex flex-wrap justify-content-center mt-3">
                         <span class="badge-gold">Working Professionals</span>
@@ -206,9 +208,9 @@
 
             <footer>
                 <div class="container">
-                    <h3>Experience Complete Wellness</h3>
-                    <p>At V&V Family Salon, we focus on an experience that feels premium and complete — not rushed.</p>
-                    <a href="#" class="btn btn-outline-warning mt-3 px-5 py-2" style="border-radius: 30px; border-color: var(--sreenika-accentt); color: var(--sreenika-accentt);">Book Your Reset Session</a>
+                    <h3 class="text-white">Experience Complete Wellness</h3>
+                    <p class="text-white">At V&V Family Salon, we focus on an experience that feels premium and complete — not rushed.</p>
+                    <a href="appointment.php" class="btn btn-outline-warning mt-3 px-5 py-2" style="border-radius: 30px; border-color: var(--sreenika-accentt); color: var(--sreenika-accentt);">Book Your Reset Session</a>
                 </div>
             </footer>
 

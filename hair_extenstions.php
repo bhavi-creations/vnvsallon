@@ -123,7 +123,7 @@
                 <div class="container">
                     <h2 style="color:#dcc136">Ready for a Transformation?</h2>
                     <p class="full_service_color">Our goal is to ensure you feel confident — not dependent.</p>
-                    <a href="#" class="hair_extensions_btn mt-4">Book Your Consultation</a>
+                    <a href="appointment.php" class="hair_extensions_btn mt-4">Book Your Consultation</a>
                 </div>
             </footer>
         </div>

@@ -214,7 +214,7 @@
                 <div class="container">
                     <h2 style="color:#dcc136">Ready for a Hair Transformation?</h2>
                     <p class="full_service_color">Our goal is to ensure you feel confident — not just on day one, but on day twenty.</p>
-                    <a href="#" class="hair_srv_btn mt-4">Book Your Appointment</a>
+                    <a href="appointment.php" class="hair_srv_btn mt-4">Book Your Appointment</a>
                 </div>
             </footer>
         </div>

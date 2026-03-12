@@ -202,7 +202,7 @@
                 <div class="container">
                     <h2 style="color:gold">Ready for a Sharp Look?</h2>
                     <p class="full_service_color">Experience grooming that stays consistent and easy to maintain.</p>
-                    <a href="#" class="men_groom_btn mt-4">Book Your Appointment</a>
+                    <a href="appointment.php" class="men_groom_btn mt-4">Book Your Appointment</a>
                 </div>
             </footer>
 

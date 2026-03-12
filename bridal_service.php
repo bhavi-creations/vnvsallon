@@ -206,7 +206,7 @@
                 <div class="container">
                     <h2 class="bride-section-title">Experience the V&V Difference</h2>
                     <p>Don't leave your bridal glow to the last minute. Let's plan it perfectly.</p>
-                    <a href="#" class="bride-btn">Book Your Consultation</a>
+                    <a href="appointment.php" class="bride-btn">Book Your Consultation</a>
                 </div>
             </footer>
 

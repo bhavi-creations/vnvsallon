@@ -37,7 +37,7 @@
                     <li class="nav-item"><a class="nav-link" href="service.php">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="branchs.php">Branches</a></li>
                     <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.php">blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blogs.php">blog</a></li>
                     <li class="nav-item appointment_button"><a class="nav-link" href="appointment.php">Appointment</a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="#">Contact</a></li> -->
                 </ul>
