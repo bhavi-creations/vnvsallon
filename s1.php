@@ -191,8 +191,8 @@
 
                     <div class="review-box">
                         ⭐⭐⭐⭐⭐
-                        <p>V & V Salon service is amazing! Staff very professional and luxury experience.</p>
-                        <h6>- Priya Sharma</h6>
+                        <p>I had great experience at V&V Family salon with khan. Very good hair cut 100percent satisfaction.must try salon in kakinada.</p>
+                        <h6>- kumari gk</h6>
                     </div>
                 </div>
                 <div class="swiper-slide"> <img
@@ -200,48 +200,48 @@
 
                     <div class="review-box">
                         ⭐⭐⭐⭐⭐
-                        <p>V & V Salon service is amazing! Staff very professional and luxury experience.</p>
-                        <h6>- Priya Sharma</h6>
+                        <p>Superb experience with in this salon.. Services are too good... I have done my hair cut litrally awsome that was... Tanq.. V&v salon.. They r receiveing was good and... Ambians was too good.💐</p>
+                        <h6>- Sailu priya</h6>
                     </div>
                 </div>
                 <div class="swiper-slide"><img
                         src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=600" />
                     <div class="review-box">
                         ⭐⭐⭐⭐⭐
-                        <p>V & V Salon service is amazing! Staff very professional and luxury experience.</p>
-                        <h6>- Priya Sharma</h6>
+                        <p>It was an ultimate experience while having haircut in v and v saloon.. highly recommend to everyone thanks to khan !!</p>
+                        <h6>- Jyothi Kakinada</h6>
                     </div>
                 </div>
                 <div class="swiper-slide"><img
                         src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?auto=format&fit=crop&w=600" />
                     <div class="review-box">
                         ⭐⭐⭐⭐⭐
-                        <p>V & V Salon service is amazing! Staff very professional and luxury experience.</p>
-                        <h6>- Priya Sharma</h6>
+                        <p>Had a good experience with V & V Saloon. They provided a cute and fresh haircut for me. Bilal is profesional and friendly. Satisfied with the service.</p>
+                        <h6>- Abhi chand</h6>
                     </div>
                 </div>
                 <div class="swiper-slide"><img
                         src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=600" />
                     <div class="review-box">
                         ⭐⭐⭐⭐⭐
-                        <p>V & V Salon service is amazing! Staff very professional and luxury experience.</p>
-                        <h6>- Priya Sharma</h6>
+                        <p>Customer service is really great... Especially staff krishna had done great haircut to me... service is really good.</p>
+                        <h6>- sai krishna</h6>
                     </div>
                 </div>
                 <div class="swiper-slide"><img
                         src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=600" />
                     <div class="review-box">
                         ⭐⭐⭐⭐⭐
-                        <p>V & V Salon service is amazing! Staff very professional and luxury experience.</p>
-                        <h6>- Priya Sharma</h6>
+                        <p>Really happy with my experience at VNV Saloon. Krishna did a great job, just the way I wanted. Exactly what I was looking for. Thanks, bro!”</p>
+                        <h6>-Umar Shaik</h6>
                     </div>
                 </div>
                 <div class="swiper-slide"><img
                         src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600" />
                     <div class="review-box">
                         ⭐⭐⭐⭐⭐
-                        <p>V & V Salon service is amazing! Staff very professional and luxury experience.</p>
-                        <h6>- Priya Sharma</h6>
+                        <p>My experience was amazing . The reception , ambience and don't even get started on the service it was mind blowing</p>
+                        <h6>- boda pravallika</h6>
                     </div>
                 </div>
             </div>
