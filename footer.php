@@ -45,7 +45,7 @@
                             <img src="./assets/img/KAKINADA.png" alt="news">
                         </div>
                         <div>
-                            <h3 class="footer_address"> <a href="https://maps.app.goo.gl/T7eEeHqAWMh3ExPJ8">Kakinada </a> </h3>
+                            <h3 class="footer_address"> <a href="https://maps.app.goo.gl/T7eEeHqAWMh3ExPJ8" target="_blank">Kakinada </a> </h3>
                             <!-- <small class="text-white d-block">Even the all-powerful Pointing...</small>
                             <small class="text-muted">Oct. 16, 2019 Admin 19</small> -->
                         </div>
@@ -55,7 +55,7 @@
                             <img src="./assets/img/MVP.png" alt="news">
                         </div>
                         <div>
-                            <h3 class="footer_address"> <a href="https://maps.app.goo.gl/TrNSvPF8Htzk1RZd6">Visakhapatnam</a> </h3>
+                            <h3 class="footer_address"> <a href="https://maps.app.goo.gl/TrNSvPF8Htzk1RZd6" target="_blank">Visakhapatnam</a> </h3>
                             <!-- <small class="text-white d-block">Even the all-powerful Pointing...</small>
                             <small class="text-muted">Oct. 16, 2019 Admin 19</small> -->
                         </div>
@@ -66,7 +66,7 @@
                             <img src="./assets/img/MADHURAVADA.png" alt="news">
                         </div>
                         <div>
-                            <h3 class="footer_address"> <a href="https://maps.app.goo.gl/AnpinvCfKwtgexhU8">Madhuravada</a> </h3>
+                            <h3 class="footer_address"> <a href="https://maps.app.goo.gl/AnpinvCfKwtgexhU8" target="_blank">Madhuravada</a> </h3>
                         </div>
                     </div>
                 </div>

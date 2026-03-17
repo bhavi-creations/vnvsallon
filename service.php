@@ -75,7 +75,7 @@
                     </div>
                     <div class="service-content">
                         <h5 class="service-title">Spa Service</h5>
-                        <p class="service-text">dvanced hygiene standards and professional therapists for your comfort</p>
+                        <p class="service-text">Advanced hygiene standards and professional therapists for your comfort</p>
                         <a href="spa_servie.php" class="service-btn">READ MORE</a>
                     </div>
                 </div>
