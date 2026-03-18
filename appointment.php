@@ -222,27 +222,25 @@
         <div class="row g-0 snk-v2-main-container mb-5">
             <div class="col-lg-6 p-4 p-md-5">
                 <h3 class="mb-4" style="color: var(--sreenika-accent);">Book Appointment</h3>
-                <form id="appointmentForm">
-                    <div class="mb-3">
-                        <!-- <label class="form-label text-secondary small">BRANCH SELECTED</label> -->
-                        <!-- <input type="text" id="selectedBranch" class="form-control snk-v2-form-control" readonly value="MVP Branch"> -->
-                    </div>
+                <!-- <form id="appointmentForm" method="POST" action="appointmentform.php">
+                  
 
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label class="form-label small">NAME</label>
-                            <input type="text" class="form-control snk-v2-form-control" placeholder="Enter your name" required>
+                            <input type="text" name="name" class="form-control snk-v2-form-control" placeholder="Enter your name" required>
                         </div>
+
                         <div class="col-md-6 mb-3">
                             <label class="form-label small">PHONE</label>
-                            <input type="tel" class="form-control snk-v2-form-control" placeholder="Mobile number" required>
+                            <input type="tel" name="phone" class="form-control snk-v2-form-control" placeholder="Mobile number" required>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label class="form-label small">SERVICE</label>
-                            <select class="form-select snk-v2-form-control">
+                            <select name="service" class="form-select snk-v2-form-control" required>
                                 <option selected disabled>Choose Service</option>
                                 <option>Hair Cut & Styling</option>
                                 <option>Hair Coloring</option>
@@ -252,29 +250,85 @@
                             </select>
                         </div>
 
-
                         <div class="col-md-6 mb-3">
                             <label class="form-label small">Branch</label>
-                            <select class="form-select snk-v2-form-control">
+                            <select name="branch" class="form-select snk-v2-form-control" required>
                                 <option selected disabled>Choose Branch</option>
-                                <<option> Kakinada </option>
-                                    <option>Visakhapatnam </option>
-                                    <option> Madhuravada </option>
+                                <option>Kakinada</option>
+                                <option>Visakhapatnam</option>
+                                <option>Madhuravada</option>
                             </select>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label small">DATE</label>
-                            <input type="date" class="form-control snk-v2-form-control" required>
                         </div>
 
                         <div class="col-md-6 mb-3">
-                            <label class="form-label small">Meassage</label>
-                            <input type="text" class="form-control snk-v2-form-control" placeholder="meassage">
+                            <label class="form-label small">DATE</label>
+                            <input type="date" name="date" class="form-control snk-v2-form-control" required>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label small">MESSAGE</label>
+                            <input type="text" name="message" class="form-control snk-v2-form-control" placeholder="Message">
                         </div>
                     </div>
 
                     <button type="submit" class="btn snk-v2-btn-book w-100 mt-3 text-uppercase">Book Now</button>
+                </form> -->
+
+                <form action="appointmentform.php" method="post" role="form" class="php-email-form"
+                    data-aos-delay="100">
+                    <div class="row">
+                        <div class="col-md-6 form-group mt-4 mt-md-0 mb-4">
+                            <input type="text" name="name" class="form-control  " id="name"
+                                style="border-radius: 23px; " placeholder="Your Name" required>
+                        </div>
+                        <div class="col-md-6 form-group mt-4 mt-md-0">
+                            <input type="email" class="form-control  " name="email" id="email"
+                                style="border-radius: 23px;" placeholder="Your Email" required>
+                        </div>
+                        <div class="col-md-6 form-group mt-5 mt-md-0">
+                            <input type="tel" class="form-control  " name="phone" id="phone"
+                                style="border-radius: 23px;" placeholder="Your Phone" required>
+                        </div>
+                        <div class="col-md-6 form-group mt-4  mt-md-0">
+                            <input type="date" name="date" class="form-control datepicker  "
+                                style="border-radius: 23px;" id="date" placeholder="Appointment Date" required>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="  form-group mt-4">
+                            <select name="department" id="department" style="border-radius: 23px;"
+                                class="form-select" required>
+                                <label class="form-label small">Branch</label>
+
+                                <option selected disabled>Choose Branch</option>
+                                <option style="color: white;">Kakinada</option>
+                                <option style="color: white;">Visakhapatnam</option>
+                                <option style="color: white;">Madhuravada</option>
+                            </select>
+
+
+
+
+
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group mt-4 mb-5">
+                        <textarea class="form-control" name="message" style="border-radius: 23px;" rows="5"
+                            placeholder="Message (Optional)"></textarea>
+                    </div>
+                    <button type="submit" class="btn snk-v2-btn-book w-100 mt-3 text-uppercase">Book Now</button>
+
+                    <!-- <div class="text-center maker"><button type="submit" class="makee">Make an
+                            Appointment</button></div> -->
                 </form>
+
+
+
+
             </div>
 
             <div class="col-lg-6">
@@ -288,7 +342,7 @@
 
 
 
-                
+
             </div>
         </div>
     </div>
@@ -326,6 +380,7 @@
             alert('Success! Your appointment request for ' + branch + ' has been sent. We will call you back soon.');
         };
     </script>
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

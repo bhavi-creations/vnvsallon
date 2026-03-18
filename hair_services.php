@@ -26,7 +26,7 @@
             <header class="hair_srv_hero">
                 <div class="container">
                     <h1>Hair Services</h1>
-                    <p class="lead mt-4 mx-auto full_service_color" style="max-width: 900px;" >
+                    <p class="lead mt-4 mx-auto full_service_color" style="max-width: 900px;">
                         Get the look you want without damaging the health of your hair. We follow a <strong>consultation-first
                             approach</strong> for safe, customized results.
                     </p>
@@ -205,7 +205,7 @@
 
                 <div class="hair_srv_highlight text-center mt-5">
                     <h4 class="full_service_color">Common Mistakes We Help You Avoid</h4>
-                    <p class="mb-0 full_service_color" >Wrong color choice • Excessive heat damage • Unrealistic smoothening results</p>
+                    <p class="mb-0 full_service_color">Wrong color choice • Excessive heat damage • Unrealistic smoothening results</p>
                 </div>
 
             </div>
@@ -226,19 +226,22 @@
                     <p class="text-center small text-muted">Instant Confirmation</p>
                 </div>
 
-                <form class="mt-4">
-                    <input type="text" class="snk-input-field" placeholder="Full Name">
-                    <input type="text" class="snk-input-field" placeholder="Number">
-                    <input type="email" class="snk-input-field" placeholder="Email Address">
-                    <input type="date" class="snk-input-field">
-                    <select class="snk-input-field">
+                <form class="mt-4" action="contactform.php" method="POST" class="contact-form">
+
+                    <input type="text" class="snk-input-field" name="contactname" placeholder="Full Name">
+                    <input type="text" class="snk-input-field" name="contactnumber" placeholder="Number">
+                    <input type="email" class="snk-input-field" name="contactemail" placeholder="Email Address">
+                    <input type="date" name="contactdate" class="snk-input-field">
+                    <select class="snk-input-field " name="department">
                         <option selected disabled>Choose SERVICE</option>
                         <option> Hair services </option>
                         <option> Beauty services </option>
-                        <option> beidal & groom services </option>
+                        <option> bridal & groom services </option>
                         <option> Spa services </option>
-                        <option> Hair xtraction </option>
+                        <option> Hair extraction </option>
                     </select>
+                    <input type="text" class="snk-input-field" name="meassage" placeholder="meassage">
+
                     <button type="submit" class="snk-submit-trigger">Book Now</button>
                 </form>
             </div>

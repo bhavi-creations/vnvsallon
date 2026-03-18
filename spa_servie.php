@@ -7,7 +7,7 @@
         <div class="col-lg-2 col-md-4 snk-order-nav">
             <div class="snk-service-navigator">
                 <h6 class="snk-nav-title d-flex justify-content-center">Menu</h6>
-                 <nav>
+                <nav>
 
 
                     <a href="hair_services.php" class="snk-category-link snk-active">Hair Services</a>
@@ -23,7 +23,7 @@
         <div class="col-lg-7 col-md-8 snk-order-content service_hair_section">
 
 
-        <img src="./assets/img/spa_2.png" alt="" class="img-fluid mt-2">
+            <img src="./assets/img/spa_2.png" alt="" class="img-fluid mt-2">
             <header class="spa-hero">
                 <div class="container">
                     <h1>SPA SERVICES</h1>
@@ -55,7 +55,7 @@
                             <div class="col-md-6">
                                 <ul class="spa-list">
                                     <li class="full_service_color"><strong>Any sensitivity:</strong> neck pain, lower back, muscle stiffness, cramps</li>
-                                    <li ><strong>Travel/workout fatigue level</strong></li>
+                                    <li><strong>Travel/workout fatigue level</strong></li>
                                     <li class="full_service_color"><strong>Medical conditions:</strong> To ensure a safe experience</li>
                                 </ul>
                             </div>
@@ -75,8 +75,8 @@
                                 <li class="full_service_color">Calm breathing rhythm and nervous system reset</li>
                                 <li class="full_service_color">Improved sleep quality and mental freshness</li>
                             </ul>
-                            <div class="spa-highlight-box" >
-                               <p class="full_service_color"> <strong>Best for:</strong> Long work hours, anxiety, travel fatigue, and mental reset.</p>
+                            <div class="spa-highlight-box">
+                                <p class="full_service_color"> <strong>Best for:</strong> Long work hours, anxiety, travel fatigue, and mental reset.</p>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                                 <li class="full_service_color">Physical recovery support</li>
                             </ul>
                             <div class="spa-highlight-box">
-                              <p class="full_service_color">  <strong>Best for:</strong> Tight or sore muscles, body heaviness, and post-activity recovery.</p>
+                                <p class="full_service_color"> <strong>Best for:</strong> Tight or sore muscles, body heaviness, and post-activity recovery.</p>
                             </div>
                         </div>
                     </div>
@@ -192,7 +192,7 @@
                     </div>
                 </div>
 
-                <div class="spa-highlight-box mt-5 text-center p-4 service_bottom_service "  >
+                <div class="spa-highlight-box mt-5 text-center p-4 service_bottom_service ">
                     <h4 class="full_service_color">Who Spa Services Are Perfect For</h4>
                     <div class="d-flex flex-wrap justify-content-center mt-3">
                         <span class="badge-gold">Working Professionals</span>
@@ -223,19 +223,22 @@
                     <p class="text-center small text-muted">Instant Confirmation</p>
                 </div>
 
-                <form class="mt-4">
-                    <input type="text" class="snk-input-field" placeholder="Full Name">
-                    <input type="text" class="snk-input-field" placeholder="Number">
-                    <input type="email" class="snk-input-field" placeholder="Email Address">
-                    <input type="date" class="snk-input-field">
-                    <select class="snk-input-field">
+                <form class="mt-4" action="contactform.php" method="POST" class="contact-form">
+
+                    <input type="text" class="snk-input-field" name="contactname" placeholder="Full Name">
+                    <input type="text" class="snk-input-field" name="contactnumber" placeholder="Number">
+                    <input type="email" class="snk-input-field" name="contactemail" placeholder="Email Address">
+                    <input type="date" name="contactdate" class="snk-input-field">
+                    <select class="snk-input-field " name="department">
                         <option selected disabled>Choose SERVICE</option>
                         <option> Hair services </option>
                         <option> Beauty services </option>
-                        <option> beidal & groom services </option>
+                        <option> bridal & groom services </option>
                         <option> Spa services </option>
-                        <option> Hair xtraction </option>
+                        <option> Hair extraction </option>
                     </select>
+                    <input type="text" class="snk-input-field" name="meassage" placeholder="meassage">
+
                     <button type="submit" class="snk-submit-trigger">Book Now</button>
                 </form>
             </div>

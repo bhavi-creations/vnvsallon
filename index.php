@@ -17,10 +17,10 @@
             <div class="reel-wrapper">
                 <div class="reel-box">
                     <video autoplay muted loop playsinline controls>
-                        <source src="./assets/img/v & v saloon edit.mp4" type="video/mp4">
+                        <source src="./assets/img/V & V WSaloon MVP.mp4" type="video/mp4">
                     </video>
                     <div class="reel-label">
-                        <p class="city-title index_addres "> <a href="https://maps.app.goo.gl/TrNSvPF8Htzk1RZd6">Visakhapatnam</a> </p>
+                        <p class="city-title index_addres "> <a href="https://maps.app.goo.gl/TrNSvPF8Htzk1RZd6">MVP</a> </p>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@
             <div class="reel-wrapper">
                 <div class="reel-box">
                     <video autoplay muted loop playsinline controls>
-                        <source src="./assets/img/V & V WSaloon MVP.mp4" type="video/mp4">
+                        <source src="./assets/img/MADHURAVADA.mp4" type="video/mp4">
                     </video>
                     <div class="reel-label">
                         <p class="city-title index_addres"> <a href="https://maps.app.goo.gl/AnpinvCfKwtgexhU8">Madhuravada</a> </p>
@@ -151,7 +151,8 @@
 
             <div class="service-item-box">
                 <a href="hair_services.php" class="service-info-card service-pos-bottom shadow">
-                    <span class="service-name-label">✂ Hair Service</span>
+                    <span class="service-name-label"> Hair Service</span>
+                    <!-- <span class="service-name-label">✂ Hair Service</span> -->
                     <span class="service-desc-text">Premium haircuts and professional styling for everyone.</span>
                 </a>
                 <div class="service-dot-marker"></div>
@@ -159,7 +160,8 @@
 
             <div class="service-item-box">
                 <a href="bridal_service.php" class="service-info-card service-pos-top shadow">
-                    <span class="service-name-label">💄 Bridal Service</span>
+                    <span class="service-name-label"> Bridal Service</span>
+                    <!-- <span class="service-name-label">💄 Bridal Service</span> -->
                     <span class="service-desc-text">Elegant makeup and hair for your special wedding day.</span>
                 </a>
                 <div class="service-dot-marker"></div>
@@ -167,7 +169,8 @@
 
             <div class="service-item-box">
                 <a href="men_grooming_service.php" class="service-info-card service-pos-bottom shadow">
-                    <span class="service-name-label">🤵 Groom Service</span>
+                    <span class="service-name-label"> Groom Service</span>
+                    <!-- <span class="service-name-label">🤵 Groom Service</span> -->
                     <span class="service-desc-text">Exclusive grooming and skin care for the modern man.</span>
                 </a>
                 <div class="service-dot-marker"></div>
@@ -175,7 +178,8 @@
 
             <div class="service-item-box">
                 <a href="spa_servie.php" class="service-info-card service-pos-top shadow">
-                    <span class="service-name-label">📷Spa Service</span>
+                    <span class="service-name-label">Spa Service</span>
+                    <!-- <span class="service-name-label">📷Spa Service</span> -->
                     <span class="service-desc-text">dvanced hygiene standards and professional therapists for your comfort</span>
                 </a>
                 <div class="service-dot-marker"></div>
@@ -183,7 +187,8 @@
 
             <div class="service-item-box">
                 <a href="hair_extenstions.php" class="service-info-card service-pos-bottom shadow">
-                    <span class="service-name-label">💇 Hair Extensions</span>
+                    <span class="service-name-label"> Hair Extensions</span>
+                    <!-- <span class="service-name-label">💇 Hair Extensions</span> -->
                     <span class="service-desc-text">Advanced and safe hair restoration treatments.</span>
                 </a>
                 <div class="service-dot-marker"></div>

@@ -219,21 +219,87 @@
                     <p class="text-center small text-muted">Instant Confirmation</p>
                 </div>
 
-                <form class="mt-4">
-                    <input type="text" class="snk-input-field" placeholder="Full Name">
-                    <input type="text" class="snk-input-field" placeholder="Number">
-                    <input type="email" class="snk-input-field" placeholder="Email Address">
-                    <input type="date" class="snk-input-field">
-                    <select class="snk-input-field">
+                <form class="mt-4" action="contactform.php" method="POST" class="contact-form">
+
+                    <input type="text" class="snk-input-field" name="contactname" placeholder="Full Name">
+                    <input type="text" class="snk-input-field" name="contactnumber" placeholder="Number">
+                    <input type="email" class="snk-input-field" name="contactemail" placeholder="Email Address">
+                    <input type="date" name="contactdate"   class="snk-input-field">
+                    <select class="snk-input-field " name="department">
                         <option selected disabled>Choose SERVICE</option>
                         <option> Hair services </option>
                         <option> Beauty services </option>
-                        <option> beidal & groom services </option>
+                        <option> bridal & groom services </option>
                         <option> Spa services </option>
-                        <option> Hair xtraction </option>
+                        <option> Hair extraction </option>
                     </select>
+                    <input type="text" class="snk-input-field" name="meassage" placeholder="meassage">
+
                     <button type="submit" class="snk-submit-trigger">Book Now</button>
                 </form>
+
+
+
+
+
+                <!-- <form action="contactform.php" method="POST" class="contact-form">
+
+                <div class="row">
+                 
+
+                  
+
+                  <div class="col-md-6 form-group  mt-3">
+                    <input type="text" name="contactsubject" class="form-control"
+                      placeholder="Subject">
+                  </div>
+
+                  <div class="col-md-6 form-group  mt-3">
+                    <input type="text" name="contactnumber" class="form-control"
+                      placeholder="Phone Number" required>
+                  </div>
+                </div>
+
+                <div class="form-group mt-3">
+                  <textarea name="contactmessage  " rows="6"
+                    class="form-control" placeholder="Your Message" required></textarea>
+                </div>
+
+                <div class="text-center mt-3 ">
+                 
+                  <button type="submit" class="btn btn-primary btn-lg w-100">
+                    Send Message
+                  </button>
+                </div>
+
+              </form> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
         </div>
 

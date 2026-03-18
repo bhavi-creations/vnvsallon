@@ -7,7 +7,7 @@
         <div class="col-lg-2 col-md-4 snk-order-nav">
             <div class="snk-service-navigator">
                 <h6 class="snk-nav-title d-flex justify-content-center">Menu</h6>
-                 <nav>
+                <nav>
 
 
                     <a href="hair_services.php" class="snk-category-link snk-active">Hair Services</a>
@@ -26,7 +26,7 @@
             <header class="men_groom_hero">
                 <div class="container">
                     <h1>MEN’S GROOMING</h1>
-                    <p class="lead mt-4 mx-auto full_service_color" style="max-width: 900px;" >
+                    <p class="lead mt-4 mx-auto full_service_color" style="max-width: 900px;">
                         Look sharp, feel fresh, and stay confident. We focus on clean finishing and maintenance-friendly styles that look good for weeks.
                     </p>
                 </div>
@@ -44,7 +44,7 @@
                                 <ul class="men_groom_list">
                                     <li class="full_service_color"><strong>Lifestyle:</strong> Office / Business / Student / Gym</li>
                                     <li class="full_service_color"><strong>Preference:</strong> Professional / Trendy / Bold</li>
-                                    <li  class="full_service_color"><strong>Hair Type:</strong> Thickness, Texture, Hairline</li>
+                                    <li class="full_service_color"><strong>Hair Type:</strong> Thickness, Texture, Hairline</li>
                                 </ul>
                             </div>
                             <div class="col-md-6">
@@ -215,19 +215,22 @@
                     <p class="text-center small text-muted">Instant Confirmation</p>
                 </div>
 
-                <form class="mt-4">
-                    <input type="text" class="snk-input-field" placeholder="Full Name">
-                    <input type="text" class="snk-input-field" placeholder="Number">
-                    <input type="email" class="snk-input-field" placeholder="Email Address">
-                    <input type="date" class="snk-input-field">
-                    <select class="snk-input-field">
+                <form class="mt-4" action="contactform.php" method="POST" class="contact-form">
+
+                    <input type="text" class="snk-input-field" name="contactname" placeholder="Full Name">
+                    <input type="text" class="snk-input-field" name="contactnumber" placeholder="Number">
+                    <input type="email" class="snk-input-field" name="contactemail" placeholder="Email Address">
+                    <input type="date" name="contactdate" class="snk-input-field">
+                    <select class="snk-input-field " name="department">
                         <option selected disabled>Choose SERVICE</option>
                         <option> Hair services </option>
                         <option> Beauty services </option>
-                        <option> beidal & groom services </option>
+                        <option> bridal & groom services </option>
                         <option> Spa services </option>
-                        <option> Hair xtraction </option>
+                        <option> Hair extraction </option>
                     </select>
+                    <input type="text" class="snk-input-field" name="meassage" placeholder="meassage">
+
                     <button type="submit" class="snk-submit-trigger">Book Now</button>
                 </form>
             </div>
