@@ -57,7 +57,8 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="sn-badge-label">ABOUT US</div>
-                <h1 class="sn-hero-title">We Have 20+ Years Of Experience</h1>
+                <h1 class="sn-hero-title">Best Hair & Beauty Salon for Hair, Skin & Bridal Services</h1>
+                <p class="new_content"> We Have 20+ Years Of Experience</p>
                 <p class="sn-hero-desc">
                     V&V Family Salon is a fast-growing, system-driven salon & spa chain founded by Mr. Vishnu
                     Vadapalli, one of South India’s most respected celebrity grooming professionals.
@@ -74,12 +75,12 @@
                     <div class="sn-glow-circle-sm"></div>
                     <div class="sn-gold-dots"></div>
 
-                       <img src="./assets/img/VISHNU-SIR.jpg"
-                        alt="Professional working" class="sn-featured-img  d-none d-md-block"  >
+                    <img src="./assets/img/VISHNU-SIR.jpg"
+                        alt="Professional working" class="sn-featured-img  d-none d-md-block">
 
 
                     <img src="./assets/img/VISHNU-SIR.jpg"
-                        alt="Professional working" class="sn-featured-img d-block d-md-none"  style="width: 350px; height: auto;" >
+                        alt="Professional working" class="sn-featured-img d-block d-md-none" style="width: 350px; height: auto;">
 
                     <div class="sn-stat-card sn-stat-pos-1">
                         <div class="sn-stat-val">20+</div>
@@ -526,6 +527,21 @@
             } // Shows 1 center + 1 left + 1 right clearly
         }
     });
+</script>
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "VNV Salons",
+        "url": "https://vnvsalons.com/",
+        "logo": "https://vnvsalons.com/logo.png",
+        "sameAs": [
+            "https://www.instagram.com/yourprofile",
+            "https://www.facebook.com/yourpage"
+        ]
+    }
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

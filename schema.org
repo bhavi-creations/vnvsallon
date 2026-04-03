@@ -1,0 +1,13 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "VNV Salons",
+  "url": "https://vnvsalons.com/",
+  "logo": "https://vnvsalons.com/logo.png",
+  "sameAs": [
+    "https://www.instagram.com/yourprofile",
+    "https://www.facebook.com/yourpage"
+  ]
+}
+</script>

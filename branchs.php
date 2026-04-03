@@ -562,99 +562,104 @@
 <body>
 
     <div class="container">
-  
-          
-                <div class="row align-items-center mt-5">
-                    <div class="col-lg-12 text-center">
-                        <div class="flagship-badge">
-                            <i class="fas fa-crown"></i> Our Branches
-                        </div>
-                       
-                    </div>
+
+
+        <div class="row align-items-center mt-5">
+            <div class="col-lg-12 text-center">
+                <div class="flagship-badge">
+                    <i class="fas fa-crown"></i> Our Branches
                 </div>
-          
-    
+
+            </div>
+        </div>
+
+
 
         <div class="row g-4 mb-5">
             <div class="col-md-4">
-                <a href=""></a>
-                <div class="snk-v2-branch-card p-4 active" onclick="selectBranch('MVP Branch', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.000000000000!2d83.3333333!3d17.7333333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943376673574b%3A0xf639a0499e71000!2sMVP%20Colony!5e0!3m2!1sen!2sin!4v1700000000000')">
-                    <h2 class="snk-v2-card-title text-center">MVP Branch</h2>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
-                        <span>Mvp double Rd,ttd Kalyana mandapam, road, opp. Jet TTd, Visakhapatnam, Andhra Pradesh 530017
-                        </span>
+                <a href="salon-in-mvp-colony-vizag.php">
+                    <div class="snk-v2-branch-card p-4 active" onclick="selectBranch('MVP Branch', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.000000000000!2d83.3333333!3d17.7333333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943376673574b%3A0xf639a0499e71000!2sMVP%20Colony!5e0!3m2!1sen!2sin!4v1700000000000')">
+                        <h2 class="snk-v2-card-title text-center">MVP Branch</h2>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
+                            <span>Mvp double Rd,ttd Kalyana mandapam, road, opp. Jet TTd, Visakhapatnam, Andhra Pradesh 530017
+                            </span>
+                        </div>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-telephone-fill snk-v2-icon"></i>
+                            <span>+91-8125801107</span>
+                        </div>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-whatsapp snk-v2-icon"></i>
+                            <span>+91-8125801107</span>
+                        </div>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-envelope-fill snk-v2-icon"></i>
+                            <span>vandvsalonvizag@gmail.com</span>
+                        </div>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-clock-fill snk-v2-icon"></i>
+                            <span>9am - 9pm</span>
+                        </div>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-telephone-fill snk-v2-icon"></i>
-                        <span>+91-8125801107</span>
-                    </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-whatsapp snk-v2-icon"></i>
-                        <span>+91-8125801107</span>
-                    </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-envelope-fill snk-v2-icon"></i>
-                        <span>vandvsalonvizag@gmail.com</span>
-                    </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-clock-fill snk-v2-icon"></i>
-                        <span>9am - 9pm</span>
-                    </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-md-4">
-                <div class="snk-v2-branch-card p-4" onclick="selectBranch('V&V SALON & SPA (Kakinada)', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3816.000000000000!2d82.2333333!3d16.9333333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a38284200000000%3A0x0!2sKakinada!5e0!3m2!1sen!2sin!4v1700000000000')">
-                    <h2 class="snk-v2-card-title text-center">Kakinada Branch</h2>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
-                        <span>Mummidivari Street, Surya Rao Peta, Kakinada, Andra Pradesh, 533001
-                            (Landmark : Apollo Hospital Back side , Kakinada)</span>
+                <a href="salon-in-kakinada.php">
+                    <div class="snk-v2-branch-card p-4" onclick="selectBranch('V&V SALON & SPA (Kakinada)', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3816.000000000000!2d82.2333333!3d16.9333333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a38284200000000%3A0x0!2sKakinada!5e0!3m2!1sen!2sin!4v1700000000000')">
+                        <h2 class="snk-v2-card-title text-center">Kakinada Branch</h2>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
+                            <span>Mummidivari Street, Surya Rao Peta, Kakinada, Andra Pradesh, 533001
+                                (Landmark : Apollo Hospital Back side , Kakinada)</span>
+                        </div>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-telephone-fill snk-v2-icon"></i>
+                            <span>+91-9000021107</span>
+                        </div>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-whatsapp snk-v2-icon"></i>
+                            <span>+91-9000021107</span>
+                        </div>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-envelope-fill snk-v2-icon"></i>
+                            <span>vnvkakinada@gmail.com</span>
+                        </div>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-clock-fill snk-v2-icon"></i>
+                            <span>9am - 9pm</span>
+                        </div>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-telephone-fill snk-v2-icon"></i>
-                        <span>+91-9000021107</span>
-                    </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-whatsapp snk-v2-icon"></i>
-                        <span>+91-9000021107</span>
-                    </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-envelope-fill snk-v2-icon"></i>
-                        <span>vnvkakinada@gmail.com</span>
-                    </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-clock-fill snk-v2-icon"></i>
-                        <span>9am - 9pm</span>
-                    </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-md-4">
-                <div class="snk-v2-branch-card p-4" onclick="selectBranch('Madhurwada Branch', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.000000000000!2d83.3500000!3d17.8000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39500000000000%3A0x0!2sMadhurwada!5e0!3m2!1sen!2sin!4v1700000000000')">
-                    <h2 class="snk-v2-card-title text-center">Madhurwada Branch</h2>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
-                        <span>Fab India building, 3rd floor ,midhilapuri colony,pm.palem, madhurwada, Visakhapatnam, Andhra Pradesh - 530041</span>
+                <a href="salon-in-madhurawada-vizag.php">
+                    <div class="snk-v2-branch-card p-4" onclick="selectBranch('Madhurwada Branch', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.000000000000!2d83.3500000!3d17.8000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39500000000000%3A0x0!2sMadhurwada!5e0!3m2!1sen!2sin!4v1700000000000')">
+                        <h2 class="snk-v2-card-title text-center">Madhurwada Branch</h2>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-geo-alt-fill snk-v2-icon"></i>
+                            <span>Fab India building, 3rd floor ,midhilapuri colony,pm.palem, madhurwada, Visakhapatnam, Andhra Pradesh - 530041</span>
+                        </div>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-telephone-fill snk-v2-icon"></i>
+                            <span>+91-9011186999</span>
+                        </div>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-whatsapp snk-v2-icon"></i>
+                            <span>+91-9011186999</span>
+                        </div>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-envelope-fill snk-v2-icon"></i>
+                            <span>vandvsalonmadhurwada@gmail.com</span>
+                        </div>
+                        <div class="snk-v2-info-item">
+                            <i class="bi bi-clock-fill snk-v2-icon"></i>
+                            <span>9am - 9pm</span>
+                        </div>
                     </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-telephone-fill snk-v2-icon"></i>
-                        <span>+91-9011186999</span>
-                    </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-whatsapp snk-v2-icon"></i>
-                        <span>+91-9011186999</span>
-                    </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-envelope-fill snk-v2-icon"></i>
-                        <span>vandvsalonmadhurwada@gmail.com</span>
-                    </div>
-                    <div class="snk-v2-info-item">
-                        <i class="bi bi-clock-fill snk-v2-icon"></i>
-                        <span>9am - 9pm</span>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>

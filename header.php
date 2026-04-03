@@ -12,12 +12,25 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/style.css">
-
+    <link href="./assets/img/favicon.png" rel="icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
+    <meta name="title" content="VNV Salons – Best Hair & Beauty Salon | Hair, Skin & Bridal Services">
+    <meta name="description" content="VNV Salons offers expert haircuts, skin care, and bridal makeup services with professional stylists and modern techniques. Experience premium beauty care. Book now!">
+    <meta name="keywords" content="VNV Salons,
+     hair salon,
+      beauty salon, 
+      bridal makeup,
+       hair styling,
+        skin care, 
+        salon in Andhra Pradesh,
+         salon in Kakinada, 
+         salon in Vizag">
+
+    <link rel="canonical" href="https://vnvsalons.com/" />
 </head>
 
 <body>
