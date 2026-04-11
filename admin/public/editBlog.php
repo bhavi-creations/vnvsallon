@@ -43,7 +43,7 @@ if ($service_result) {
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Edit Blog</title>
+    <title>Ask oncologist</title>
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet">
@@ -168,3 +168,6 @@ if ($service_result) {
     </script>
 </body>
 </html>
+
+
+<!-- $services = ["Root Canal", "Wisdom Tooth Removal", "Bad Breath Treatment", "Gum Treatment", "Teeth Cleaning", "Orthodontic Treatment", "Dental Crown & Bridge", "Invisible Aligners", "Dental Veneers", "Smile Makeover", "Teeth Whitening", "Dental Implants", "Dentures", "Smile Designing", "Full Mouth Rehabilitation Treatment"]; -->

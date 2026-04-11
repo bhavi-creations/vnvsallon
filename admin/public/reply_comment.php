@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if ($stmt->execute()) {
             // Redirect back to comments list
-            header("Location: <blog_commets class="php"></blog_commets>?blog_id=" . $comment['blog_id'] . "&reply_added=1");
+            header("Location: blog_commets.php?blog_id=" . $comment['blog_id'] . "&reply_added=1");
             exit;
         } else {
             echo "Error saving reply: " . $stmt->error;
@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Reply for Comment</title>
+    <title>Ask Oncologist</title>
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <style>
