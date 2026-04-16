@@ -2202,7 +2202,8 @@
 }
 
 .blog-card-text {
-  color: #ffffff !important;
+  color: #000000 !important;
+  /* color: #ffffff !important; */
   font-weight: 700;
 }
 
@@ -2237,7 +2238,10 @@
 }
 
 .background_sidebar {
-  background-color: #943483;
+  /* background-color: #943483; */
+  background-color: gold;;
+  color: black;
+  font-weight: 700;
 }
 
 .redirect_section {

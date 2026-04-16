@@ -20,13 +20,7 @@ if (!$blog) {
     exit;
 }
 
-// NEWSLETTER FETCHING
-$latestNewsletter = null;
-$news_sql = "SELECT title, pdf_path FROM pdf_uploads ORDER BY id DESC LIMIT 1";
-$news_result = $conn->query($news_sql);
-if ($news_result && $news_result->num_rows > 0) {
-    $latestNewsletter = $news_result->fetch_assoc();
-}
+
 
 function getLimitWords($text, $limit = 15)
 {
@@ -45,7 +39,7 @@ function getLimitWords($text, $limit = 15)
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision Dental </title>
+    <title>Vnv Saloon </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -68,7 +62,7 @@ function getLimitWords($text, $limit = 15)
             margin: 30px auto;
             padding: 40px;
             border-radius: 30px;
-            border: 2px solid #c8a74e ;
+            border: 2px solid #c8a74e;
         }
 
         /* Menu Styles */
@@ -134,7 +128,7 @@ function getLimitWords($text, $limit = 15)
         }
 
         .service-badge {
-            background:  #c8a74e;
+            background: #c8a74e;
             /* background: var(--primary-navy); */
             color: #ffffff;
             padding: 5px 15px;
@@ -232,7 +226,7 @@ function getLimitWords($text, $limit = 15)
         .btn-dental {
             background: #c8a74e;
             color: #ffff00;
-            border: 2px solid white ;
+            border: 2px solid white;
             /* border: none; */
             padding: 8px 25px;
             border-radius: 50px;
@@ -261,19 +255,21 @@ function getLimitWords($text, $limit = 15)
         }
 
         .key-point {
-            background:white;
+            background: white;
             /* background: var(--soft-cream); */
             padding: 8px 12px;
             border-radius: 10px;
             font-size: 12px;
             margin-bottom: 8px;
             color: #c8a74e;
+            margin-bottom: 8px
         }
 
         .tag-badge {
             display: inline-block;
             background: gold;
-            color: #c8a74e;
+            color: #000000;
+
             padding: 4px 10px;
             border-radius: 50px;
             font-size: 10px;
@@ -409,10 +405,10 @@ function getLimitWords($text, $limit = 15)
                 margin-bottom: 10px;
             }
 
-            .doctor-profile-img {
+            /* .doctor-profile-img {
                 width: 150px;
                 height: 150px;
-            }
+            } */
 
             .doctor-socials {
                 justify-content: center;
@@ -475,20 +471,22 @@ function getLimitWords($text, $limit = 15)
                     <div class="doctor-info">
                         <div class="doctor-title-area">
                             <h2 class="doctor-name">Mr. Vishnu Vadapalli</h2>
-                            <span class="doctor-degree">Founder • Celebrity grooming experience • Built V&V from the ground up</span>
+                            <span class="doctor-degree">Founder Of V&V Saloon</span>
                         </div>
                         <div class="doctor-quote-box">
                             <i class="fas fa-quote-left quote-icon"></i>
                             <p class="doctor-description">
-                               Premium hair, beauty & spa experiences across Andhra Pradesh.
+                                <!-- Premium hair, beauty & spa experiences across Andhra Pradesh. -->
+
+                                “With years of trusted experience, VNV Salon is your destination for professional beauty care, personalized styling, and a relaxing salon experience.”
                                 <span class="highlight-text"></span>
                             </p>
                         </div>
                         <div class="doctor-socials">
-                            <span class="follow-text">Expertise in:</span>
-                            <span class="badge bg-white text-dark rounded-pill px-3 py-1">Premium Spa</span>
-                            <span class="badge bg-white text-dark rounded-pill px-3 py-1">Advanced Beauty</span>
-                            <!-- <span class="badge bg-white text-dark rounded-pill px-3 py-1">Professional Hair</span> -->
+                            <span class="follow-text">Branches in:</span>
+                            <span class="badge bg-white text-dark rounded-pill px-3 py-1">Kakinada</span>
+                            <span class="badge bg-white text-dark rounded-pill px-3 py-1">Madhurawada</span>
+                            <span class="badge bg-white text-dark rounded-pill px-3 py-1">MVP</span>
                         </div>
                     </div>
                 </div>
@@ -498,7 +496,7 @@ function getLimitWords($text, $limit = 15)
                     <button class="lang-btn active" id="btn-en" onclick="switchLang('en')">EN</button>
                     <button class="lang-btn" id="btn-te" onclick="switchLang('te')">తెలుగు</button>
                 </div> -->
-                    <div class="service-badge d-flex justify-content"><?php echo htmlspecialchars($blog['service_name'] ?? 'Dental Care'); ?></div>
+                    <!-- <div class="service-badge d-flex justify-content"><?php echo htmlspecialchars($blog['service_name'] ?? 'Dental Care'); ?></div> -->
 
                 </div>
 
@@ -639,7 +637,7 @@ function getLimitWords($text, $limit = 15)
                                 <a href="paedodontist-doctors-treatments-in-guntur.php" class="key-point d-flex align-items-center text-decoration-none" style="display: flex; margin-bottom: 8px;">
                                     <i class="fas fa-check-circle me-2 text-warning"></i> Paedodontist Doctors
                                 </a> -->
-                               
+
 
                     </div>
                 </div>
